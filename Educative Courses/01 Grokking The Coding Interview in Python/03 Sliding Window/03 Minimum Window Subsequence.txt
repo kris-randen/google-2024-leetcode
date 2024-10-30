@@ -1,0 +1,106 @@
+
+Sliding Window Maximum Problem
+
+Solution: Minimum Window Subsequence
+
+We'll solve the Minimum Window Subsequence problem using the Sliding Window pattern.
+
+## Problem Statement
+Given two strings, `str1` and `str2`, find the shortest substring in `str1` such that `str2` is a subsequence of that substring.
+
+### Definitions
+- A substring is a contiguous sequence of characters within a string.
+- A subsequence is a sequence that can be derived from another sequence by deleting zero or more elements without changing the order of the remaining elements.
+
+### Example
+Let’s say you have the following two strings:
+
+```plaintext
+str1 = "abbcbabbcb"
+str2 = "ac"
+```
+
+In this example, "abbcbabbc" is a substring of str1, from which we can derive str2 simply by deleting both the instances of the character `b`. Therefore, str2 is a subsequence of this substring. Since this substring is the shortest among all the substrings in which str2 is present as a subsequence, the function should return this substring, that is, "abbcbabbc".
+
+If there is no substring in str1 that covers all characters in str2, return an empty string.
+
+If there are multiple minimum-length substrings that meet the subsequence requirement, return the one with the left-most starting index.
+
+### Constraints:
+- 1 <= str1.length <= 2 * 10^3
+- 1 <= str2.length <= 100
+- str1 and str2 consist of uppercase and lowercase English letters.
+
+## Naive Approach:
+The naive approach would be to generate all possible substrings of str1 and then check which substrings contain str2 as a subsequence. Out of all the substrings in str1 that contain str2 as a subsequence, we’ll choose the one with the shortest length. This approach results in a time complexity of O(n^3), which is inefficient for large inputs.
+
+## Optimized Approach Using Sliding Window:
+We can eliminate the extra traversal of substrings by using a sliding window approach. This allows us to consider only the substrings that contain all the characters of str2 in the correct order.
+
+### Approach Breakdown:
+1. **Initialize Variables**:
+   - `size_str1` and `size_str2` store the lengths of str1 and str2, respectively.
+   - `min_sub_len` is initialized to infinity to track the minimum window size.
+   - `min_subsequence` will store the shortest subsequence.
+   - Two pointers (`index_s1`, `index_s2`) are used to scan through the two strings.
+
+2. **Find a Window**:
+   - We traverse `str1`, and whenever characters match with `str2`, we increment both pointers.
+   - Once all characters of `str2` are found in a subsequence, we check the length of this window and compare it with the current minimum.
+
+3. **Shrink the Window**:
+   - We then iterate backwards, shrinking the window as much as possible while ensuring `str2` remains a subsequence.
+
+4. **Iterate for the Entire String**:
+   - After processing one subsequence, we resume the search for shorter subsequences in the remaining part of `str1`.
+
+## Python Code:
+
+```python
+def min_window_subsequence(str1, str2):
+    size_str1, size_str2 = len(str1), len(str2)
+    min_sub_len = float('inf')
+    min_subsequence = ""
+    
+    # First pass: find a window
+    index_s1, index_s2 = 0, 0
+    while index_s1 < size_str1:
+        if str1[index_s1] == str2[index_s2]:
+            index_s2 += 1
+            if index_s2 == size_str2:
+                # We found a window, now shrink it
+                end = index_s1
+                index_s2 -= 1
+                while index_s2 >= 0:
+                    if str1[index_s1] == str2[index_s2]:
+                        index_s2 -= 1
+                    index_s1 -= 1
+                index_s1 += 1
+                index_s2 += 1
+                # Update the minimum window
+                if end - index_s1 + 1 < min_sub_len:
+                    min_sub_len = end - index_s1 + 1
+                    min_subsequence = str1[index_s1:end+1]
+        index_s1 += 1
+    
+    return min_subsequence
+
+# Test example
+print(min_window_subsequence("abbcbabbcb", "ac"))  # Output: "abbcbabbc"
+```
+
+## Solution Summary:
+1. We iterate over `str1` using two pointers. If the characters match, we increment both pointers.
+2. Once all characters of `str2` are found, we shrink the window from the start and check if it remains valid.
+3. If the new window is smaller than the previous minimum, we update the result.
+
+## Time Complexity:
+The outer loop runs in O(n), where `n` is the length of `str1`, and the inner loop runs for the length of the window, making the total time complexity O(n * m), where `m` is the length of `str2`.
+
+## Space Complexity:
+The space complexity is O(1), as we only use a few extra variables.
+
+## Edge Cases:
+- If `str1` is shorter than `str2`, return an empty string.
+- If either string is empty, return an empty string.
+
