@@ -30,24 +30,6 @@ Input: grid = [
 ]
 Output: 3
 
-
-Constraints:
-
-m == grid.length
-n == grid[i].length
-1 <= m, n <= 300
-grid[i][j] is '0' or '1'.
-Seen this question in a real interview before?
-1/5
-Yes
-No
-Accepted
-2.8M
-Submissions
-4.7M
-Acceptance Rate
-59.9%
-
 """
 
 
@@ -100,3 +82,108 @@ def dfs(g):
 
     m, n = len(g), len(g[0])
     return sum(visit(i, j) for i, j in product(range(m), range(n)))
+
+
+class DynamicUnionFind:
+    def __init__(self, n=0):
+        self.id = {i: i for i in range(n)}
+        self.sz = {i: 1 for i in range(n)}
+
+    def size(self, p):
+        return self.sz[p]
+
+    def count(self):
+        return len(self.sz)
+
+    def find(self, p, q):
+        return self.root(p) == self.root(q)
+
+    def add(self, p):
+        if p in self.id: return
+        self.id[p] = p
+        self.sz[p] = 1
+
+    def root(self, p):
+        if p == self.id[p]: return p
+        self.id[p] = self.root(self.id[p])
+        return self.id[p]
+
+    def split(self, p, q):
+        s, l = self.root(p), self.root(q)
+        return (s, l) if self.size(s) < self.size(l) else (l, s)
+
+    def union(self, p, q):
+        if self.find(p, q): return
+        s, l = self.split(p, q)
+        self.id[s] = l
+        self.sz[l] += self.sz.pop(s)
+
+def islands(g):
+    def flat(p):
+        return p[0] * n + p[1]
+
+    def unflat(k):
+        return k // n, k % n
+
+    def valid(p):
+        return 0 <= p[0] < m and 0 <= p[1] < n
+
+    def land(p):
+        return g[p[0]][p[1]] == '1'
+
+    def fland(k):
+        return land(unflat(k))
+
+    def lvalid(p):
+        return valid(p) and land(p)
+
+    def flvalid(k):
+        return lvalid(unflat(k))
+
+    def fvalid(k):
+        return valid(unflat(k))
+
+    def up(p):
+        return p[0] - 1, p[1]
+
+    def dn(p):
+        return p[0] + 1, p[1]
+
+    def lt(p):
+        return p[0], p[1] - 1
+
+    def rt(p):
+        return p[0], p[1] + 1
+
+    def fu(k):
+        return flat(up(unflat(k)))
+
+    def fd(k):
+        return flat(dn(unflat(k)))
+
+    def fl(k):
+        return flat(lt(unflat(k)))
+
+    def fr(k):
+        return flat(rt(unflat(k)))
+
+    def adj(p):
+        return p, up(p), dn(p), lt(p), rt(p)
+
+    def nbs(p):
+        return (nb for nb in adj(p) if lvalid(nb))
+
+    def fns(k):
+        return [flat(nb) for nb in nbs(unflat(k))]
+
+    m, n = len(g), len(g[0])
+    uf = DynamicUnionFind()
+    for i, j in product(range(m), range(n)):
+        if not land(p := (i, j)): continue
+        uf.add(k := flat(p))
+        for nb in fns(k):
+            uf.add(nb)
+            uf.union(k, nb)
+    return uf.count()
+
+
