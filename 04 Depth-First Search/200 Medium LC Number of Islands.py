@@ -81,3 +81,22 @@ class Graph:
         for nbr in self.nbrs(p):
             self.dfs(nbr)
 
+
+from itertools import product
+
+
+def dfs(g):
+    def valid(i, j):
+        return 0 <= i < m and 0 <= j < n and g[i][j] == '1'
+
+    def visit(i, j):
+        if not valid(i, j): return 0
+        g[i][j] = '2'
+        visit(i - 1, j)
+        visit(i + 1, j)
+        visit(i, j - 1)
+        visit(i, j + 1)
+        return 1
+
+    m, n = len(g), len(g[0])
+    return sum(visit(i, j) for i, j in product(range(m), range(n)))
