@@ -65,93 +65,66 @@ Acceptance Rate
 
 """
 
-import math
+from itertools import product
+from collections import deque
+from typing import List
 
 
-class UnionFind:
-    def __init__(self, n):
-        self.id = [i for i in range(n)];
-        self.max = 1
-        self.comps = {i: {i} for i in range(n)}
-
-    @property
-    def count(self):
-        return len(self.comps)
-
-    def size(self, p):
-        return len(self.comps[p])
-
-    def is_greater(self, p, q):
-        return self.size(p) > self.size(q)
-
-    def parent(self, i):
-        return self.id[i]
-
-    def assign(self, i, p):
-        self.id[i] = p
-
-    def is_root(self, i):
-        return i == self.parent(i)
-
-    def is_not_root(self, i):
-        return not self.is_root(i)
-
-    def merge(self, s, l):
-        self.comps[l].update(self.comps.pop(s))
-
-    def path(self, i):
-        p = [i]
-        while self.is_not_root(i):
-            i = self.parent(i)
-            p += [i]
-        return p
-
-    def compress(self, path):
-        root = path[-1]
-        for p in path: self.assign(p, root)
-        return root
-
-    def find(self, i):
-        return self.compress(self.path(i))
-
-    def split(self, p, q):
-        return (p, q) if self.is_greater(p, q) else (q, p)
-
-    def union(self, i, j):
-        p, q = self.find(i), self.find(j)
-        if not p == q: self.join(p, q)
-
-    def join(self, p, q):
-        l, s = self.split(p, q)
-        self.assign(s, l)
-        self.merge(s, l)
-        self.max = max(self.max, self.size(l))
+def dist(lb, rb):
+    return (rb[0] - lb[0]) ** 2 + (rb[1] - lb[1]) ** 2
 
 
-def distance(x1, y1, x2, y2):
-    return math.sqrt(math.pow((x1 - x2), 2) + math.pow((y1 - y2), 2))
+def maxrd(lb, rb):
+    return max(lb[2], rb[2]) ** 2
 
 
-def check_radius(b1, b2, e=1e-5):
-    x1, y1, r1 = b1
-    x2, y2, r2 = b2
-    return distance(x1, y1, x2, y2) <= (r1 + e)
+def inrange(lb, rb):
+    return lb[2] ** 2 >= dist(lb, rb)
 
 
-def connect(bombs):
-    connected = []; n = len(bombs)
-    for i in range(n):
-        for j in range(i + 1, n):
-            if check_radius(bombs[i], bombs[j]):
-                connected.append((i, j))
-    return connected
+class Graph:
+    def __init__(self, brs):
+        self.brs = brs;
+        self.V = len(brs)
+        self.adj = {v: set() for v in range(self.V)}
+        self.connect()
+
+    def dist(self, u, v):
+        return dist(self.brs[u], self.brs[v])
+
+    def inrange(self, u, v):
+        return inrange(self.brs[u], self.brs[v])
+
+    def add(self, u, v):
+        if not u == v and self.inrange(u, v): self.adj[u].add(v)
+
+    def connect(self):
+        for u, v in product(range(self.V), range(self.V)): self.add(u, v)
 
 
-def max_detonate(bombs):
-    bombs = sorted(bombs, key=lambda x: x[2], reverse=True)
-    n = len(bombs)
-    uf = UnionFind(n)
-    edges = connect(bombs)
-    for u, v in edges:
-        uf.union(u, v)
-    return uf.max
+def dfs(g):
+    def dcount(u, counted):
+        if u in counted: return counted[u]
+
+        def visit(u, visited):
+            visited.add(u)
+            for v in g.adj[u]:
+                if v not in visited: visit(v, visited)
+
+        visited = set()
+        visit(u, visited)
+        counted[u] = len(visited)
+        return counted[u]
+
+    maxs = 0; counted = {}
+
+    for v in range(g.V):
+        count = dcount(v, counted)
+        maxs = max(maxs, count)
+
+    return maxs
+
+
+class Solution:
+    def maximumDetonation(self, brs: List[List[int]]) -> int:
+        return dfs(Graph(brs))

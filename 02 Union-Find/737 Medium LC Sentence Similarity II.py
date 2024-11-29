@@ -63,6 +63,7 @@ Memory 18.49 MB Beats 26.78%
 """
 
 from functools import reduce
+from typing import List
 
 
 class UnionFindSet:
@@ -128,7 +129,7 @@ class UnionFindSet:
         return self.find(self.map[a]) == self.find(self.map[b])
 
 
-def similarity(sentence1, sentence2, similarPairs):
+def similaritys(sentence1, sentence2, similarPairs):
     if len(sentence1) != len(sentence2): return False
     pairs = reduce(lambda x, y: x + y, similarPairs, [])
     words = set(pairs + sentence1 + sentence2)
@@ -138,3 +139,55 @@ def similarity(sentence1, sentence2, similarPairs):
     for word1, word2 in zip(sentence1, sentence2):
         if not uf.connected(word1, word2): return False
     return True
+
+
+# 20241130 30th Nov 2024 Re-solved.
+
+class UnionFindDict:
+    def __init__(self, vs):
+        self.n = len(vs)
+        self.vm = {v: i for i, v in enumerate(vs)}
+        self.id = [i for i in range(self.n)]
+        self.sz = {i: 1 for i in range(self.n)}
+
+    def root(self, p):
+        if not p == self.id[p]:
+            self.id[p] = self.root(self.id[p])
+        return self.id[p]
+
+    def find(self, p, q):
+        return self.root(p) == self.root(q)
+
+    def split(self, p, q):
+        s, l = self.root(p), self.root(q)
+        return (s, l) if self.sz[s] < self.sz[l] else (l, s)
+
+    def union(self, p, q):
+        if self.find(p, q): return
+        s, l = self.split(p, q)
+        self.id[s] = l
+        self.sz[l] += self.sz.pop(s)
+
+    def similar(self, u, v):
+        return self.find(self.vm[u], self.vm[v])
+
+    def join(self, u, v):
+        self.union(self.vm[u], self.vm[v])
+
+
+def similarity(s, t, ps):
+    if not (n := len(s)) == len(t): return False
+    ws = set(
+        reduce(lambda acc, vs: acc + vs, ps, []) + s + t
+    )
+    uf = UnionFindDict(ws)
+    for p in ps: uf.join(p[0], p[1])
+    for i in range(n):
+        if not uf.similar(s[i], t[i]): return False
+    return True
+
+
+class Solution:
+    def areSentencesSimilarTwo(self, s: List[str], t: List[str], ps: List[List[str]]) -> bool:
+        return similarity(s, t, ps)
+

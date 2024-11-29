@@ -52,6 +52,7 @@ Memory 23.92 MB Beats 11.54%
 import random
 from functools import reduce
 from collections import defaultdict
+from typing import List
 
 
 def split(accs):
@@ -143,3 +144,72 @@ def merge(accs):
     uf = UnionFind(len(names))
     connect(edges, uf)
     return assemble(names, emails, uf)
+
+# 20241130 30th Nov 2024 Re-solved
+
+class UnionFindDict:
+    def __init__(self, es):
+        self.n = len(es)
+        self.em = {e: i for i, e in enumerate(es)}
+        self.me = {i: e for e, i in self.em.items()}
+        self.id = [i for i in range(self.n)]
+        self.sz = {i: {self.me[i]} for i in range(self.n)}
+
+    def size(self, p):
+        return len(self.sz[p])
+
+    def root(self, p):
+        if not p == self.id[p]:
+            self.id[p] = self.root(self.id[p])
+        return self.id[p]
+
+    def find(self, p, q):
+        return self.root(p) == self.root(q)
+
+    def split(self, p, q):
+        s, l = self.root(p), self.root(q)
+        return (s, l) if self.size(s) < self.size(l) else (l, s)
+
+    def union(self, p, q):
+        if self.find(p, q): return
+        s, l = self.split(p, q)
+        self.id[s] = l
+        self.sz[l].update(self.sz.pop(s))
+
+    def similar(self, v, w):
+        return self.find(self.em[v], self.em[w])
+
+    def join(self, v, w):
+        self.union(self.em[v], self.em[w])
+
+
+def merge(acs):
+    es = set(
+        reduce(
+            lambda acc, x: acc + x,
+            (ac[1:] for ac in acs),
+            []
+        )
+    )
+    en = {}
+    for ac in acs:
+        for a in ac[1:]:
+            en[a] = ac[0]
+
+    uf = UnionFindDict(es)
+    for ac in acs:
+        for e in ac[1:]:
+            uf.join(ac[1], e)
+    mcs = []
+    for i in uf.sz:
+        ems = sorted(list(uf.sz[i]))
+        mc = [en[ems[0]]]
+        mc += ems
+        mcs.append(mc)
+    return mcs
+
+
+class Solution:
+    def accountsMerge(self, acs: List[List[str]]) -> List[List[str]]:
+        return merge(acs)
+

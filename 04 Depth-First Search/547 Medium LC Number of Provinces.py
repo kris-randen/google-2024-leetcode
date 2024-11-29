@@ -1,5 +1,10 @@
 """
 
+
+Code
+Testcase
+Testcase
+Test Result
 547. Number of Provinces
 Solved
 Medium
@@ -36,79 +41,25 @@ isConnected[i][j] is 1 or 0.
 isConnected[i][i] == 1
 isConnected[i][j] == isConnected[j][i]
 
-Runtime 221 ms Beats 8.83%
-Memory 17.27 MB Beats 70.38%
-
 """
 
+from typing import List
 
-class UnionFinds:
-    def __init__(self, n):
-        self.id = [i for i in range(n)]
-        self.comps = {i: {i} for i in range(n)}
-        self.max = 1
 
-    @property
-    def count(self):
-        return len(self.comps)
+def dfs(rs):
+    def nbs(u):     return (v for v, c in enumerate(rs[u]) if c == 1)
 
-    def size(self, i):
-        return len(self.comps[i])
+    def visit(u):
+        visited.add(u)
+        for v in nbs(u):
+            if v not in visited: visit(v)
 
-    def parent(self, i):
-        return self.id[i]
+    visited = set(); count = 0
+    for v in range(len(rs)):
+        if v not in visited:
+            visit(v); count += 1
 
-    def is_root(self, i):
-        return i == self.parent(i)
-
-    def not_root(self, i):
-        return not self.is_root(i)
-
-    def assign(self, i, p):
-        self.id[i] = p
-
-    def path(self, i):
-        p = [i]
-        while self.not_root(i):
-            i = self.parent(i)
-            p += [i]
-        return p
-
-    def compress(self, path):
-        root = path[-1]
-        for p in path: self.assign(p, root)
-        return root
-
-    def find(self, i):
-        return self.compress(self.path(i))
-
-    def union(self, i, j):
-        p, q = self.find(i), self.find(j)
-        if p == q: return
-        self.join(p, q)
-
-    def split(self, p, q):
-        return (p, q) if self.size(p) > self.size(q) else (q, p)
-
-    def merge(self, s, l):
-        self.comps[l] = self.comps[l].union(self.comps.pop(s))
-
-    def join(self, p, q):
-        l, s = self.split(p, q)
-        self.assign(s, l)
-        self.merge(s, l)
-        self.max = max(self.max, len(self.comps[l]))
-
-def province(isConnected):
-    n = len(isConnected)
-    uf = UnionFinds(n)
-    for i in range(n):
-        for j in range(n):
-            if isConnected[i][j]:
-                uf.union(i, j)
-    return uf.count
-
-# 20241130 30th Nov 2024 Re-solved.
+    return count
 
 class UnionFind:
     def __init__(self, n):
@@ -136,7 +87,6 @@ class UnionFind:
     def count(self):
         return len(self.sz)
 
-
 def provinces(rs):
     def nbs(v):
         return (w for w, c in enumerate(rs[v]) if c == 1)
@@ -147,3 +97,7 @@ def provinces(rs):
             uf.union(u, v)
 
     return uf.count()
+
+class Solution:
+    def findCircleNum(self, rs: List[List[int]]) -> int:
+        return dfs(rs)
