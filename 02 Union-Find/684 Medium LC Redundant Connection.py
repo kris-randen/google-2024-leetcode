@@ -43,13 +43,15 @@ Accepted
 Submissions
 586.6K
 
-
 Runtime 58 ms Beats 40.24%
 Memory 17.04 MB Beats 38.11%
 
 """
 
-class UnionFind:
+from typing import List
+
+
+class UnionFinds:
     def __init__(self, n):
         self.id = [None] + [i + 1 for i in range(n)]
         self.sz = [None] + [1 for _ in range(n)]
@@ -89,8 +91,49 @@ class UnionFind:
 
 
 def find_redundant(edges):
-    uf = UnionFind(len(edges))
+    uf = UnionFinds(len(edges))
     for (u, v) in edges:
         flag = uf.union(u, v)
         if not flag: return [u, v]
 
+"""
+20241130 30th Nov 2024 Re-solved
+Runtime 3 ms Beats 59.51%
+Memory 17.90 MB Beats 7.88%
+"""
+
+
+class UnionFind:
+    def __init__(self, n):
+        self.id = [None] + [i for i in range(1, n + 1)]
+        self.sz = {i: 1 for i in range(1, n + 1)}
+
+    def root(self, p):
+        if not p == self.id[p]:
+            self.id[p] = self.root(self.id[p])
+        return self.id[p]
+
+    def find(self, p, q):
+        return self.root(p) == self.root(q)
+
+    def split(self, p, q):
+        s, l = self.root(p), self.root(q)
+        return (s, l) if self.sz[s] < self.sz[l] else (l, s)
+
+    def union(self, p, q):
+        if self.find(p, q): return False
+        s, l = self.split(p, q)
+        self.id[s] = l
+        self.sz[l] += self.sz.pop(s)
+        return True
+
+
+def redundant(es):
+    uf = UnionFind(n := len(es))
+    for e in es:
+        if not uf.union(e[0], e[1]): return e
+
+
+class Solution:
+    def findRedundantConnection(self, es: List[List[int]]) -> List[int]:
+        return redundant(es)
