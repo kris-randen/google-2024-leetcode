@@ -42,6 +42,8 @@ Constraints:
 1 <= k <= 105
 
 """
+from typing import List
+
 
 class Heap:
     def __init__(self, vs, cmp=lambda x, y: x < y):
@@ -114,6 +116,20 @@ class Heap:
         result = self.pq[1:].copy()
         self.heapify()
         return result
+
+
+from heapq import *
+
+class Solution:
+    def minStoneSum(self, mps: List[int], k: int) -> int:
+        ps = [-p for p in mps]
+        heapify(ps)
+        for _ in range(k):
+            top = -heappop(ps)
+            top -= top // 2
+            heappush(ps, -top)
+        return sum(-p for p in ps)
+
 
 if __name__ == '__main__':
     vs = [7, 2, 9, 11, 13, 5, 3, 29, 43]

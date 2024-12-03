@@ -5,6 +5,7 @@ and
 Index Heap
 
 """
+import copy
 
 
 class Heap:
@@ -19,7 +20,7 @@ class Heap:
         return len(self) > 0
 
     def __iter__(self):
-        heap = Heap(self.pq[1:], self.cmp)
+        heap = Heap(self.pq[1:].copy(), self.cmp)
         while heap:
             yield heap.pop()
 
@@ -131,7 +132,7 @@ class IndexHeap:
         return len(self) > 0
 
     def __iter__(self):
-        heap = IndexHeap(self.kvs, self.cmp)
+        heap = IndexHeap(self.kvs.copy(), self.cmp)
         while heap:
             yield heap.pop()
 
@@ -190,7 +191,7 @@ class IndexHeap:
         return j
 
     def swim(self, c):
-        while p := self.parent(c):
+        while p := self.unbalup(c):
             c = self.swap(c, p)
 
     def sink(self, p):
@@ -213,7 +214,7 @@ class IndexHeap:
         if (top := self.peek()) is None: return None
         self.swapend();     self.pq.pop()
         self.qp.pop(top);   self.kvs.pop(top)
-        return top
+        self.sinktop();     return top
 
     def heapify(self):
         for p in reversed(range(1, len(self))): self.sink(p)
@@ -226,7 +227,10 @@ if __name__ == '__main__':
     hs = Heap(vs)
     print(f'pq {hs.pq}')
     print(hs.sorted())
-    kvs = {23: 23, 3: 3, 7: 7, 9: 9, 11: 11, 5: 5, 4: 4, 2: 2, 1: 1}
+    kvs = {23: 2*23, 3: 2*3, 7: 2*7, 9: 2*9, 11: 2*11, 5: 2*5, 4: 2*4, 2: 2*2, 1: 2*1}
     hvs = IndexHeap(kvs)
+    print(f'hvs pq {hvs.pq}')
+    for v in hvs:
+        print(v, hvs.kvs[v])
     print(f'hvs pq {hvs.pq}')
     print(f'sorted hvs keys {hvs.sorted()}')
