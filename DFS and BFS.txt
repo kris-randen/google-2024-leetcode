@@ -1,0 +1,2534 @@
+Problems
+Contest
+Discuss
+Interview
+Store
+
+
+0
+0Streaks
+Extend Your Streak!
+DCC Badge
+
+avatar
+Avatar
+Krishnaswami Rajendren
+Premium
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+
+
+Depth-First Search
+LeetCode
+·
+337 questions
+·
+3597 Saved
+
+Practice
+
+
+
+Updated: 2 months ago
+Progress
+
+80/337
+Solved
+80.57%
+Acceptance
+Beats
+68.46%
+Beats
+51.3%
+Beats
+7.75%
+6 Attempting906 submission0 Attempting4 Attempting2 Attempting
+Easy
+18/39
+Med.
+59/205
+Hard
+3/93
+Discuss
+Search questions
+
+
+
+79. Word Search
+47.3%
+Med.
+
+94. Binary Tree Inorder Traversal
+80.0%
+Easy
+
+98. Validate Binary Search Tree
+35.7%
+Med.
+
+99. Recover Binary Search Tree
+59.6%
+Med.
+
+100. Same Tree
+67.1%
+Easy
+
+101. Symmetric Tree
+61.2%
+Easy
+
+104. Maximum Depth of Binary Tree
+78.2%
+Easy
+
+110. Balanced Binary Tree
+58.3%
+Easy
+
+111. Minimum Depth of Binary Tree
+52.9%
+Easy
+
+112. Path Sum
+54.9%
+Easy
+
+113. Path Sum II
+62.2%
+Med.
+
+114. Flatten Binary Tree to Linked List
+70.7%
+Med.
+
+116. Populating Next Right Pointers in Each Node
+67.2%
+Med.
+
+117. Populating Next Right Pointers in Each Node II
+57.5%
+Med.
+
+124. Binary Tree Maximum Path Sum
+42.3%
+Hard
+
+129. Sum Root to Leaf Numbers
+69.9%
+Med.
+
+130. Surrounded Regions
+45.2%
+Med.
+
+133. Clone Graph
+65.2%
+Med.
+
+144. Binary Tree Preorder Traversal
+75.7%
+Easy
+
+145. Binary Tree Postorder Traversal
+78.1%
+Easy
+
+156. Binary Tree Upside Down
+65.5%
+Med.
+
+199. Binary Tree Right Side View
+70.1%
+Med.
+
+200. Number of Islands
+64.3%
+Med.
+
+207. Course Schedule
+51.4%
+Med.
+
+210. Course Schedule II
+55.5%
+Med.
+
+211. Design Add and Search Words Data Structure
+48.4%
+Med.
+
+226. Invert Binary Tree
+80.0%
+Easy
+
+230. Kth Smallest Element in a BST
+76.8%
+Med.
+
+235. Lowest Common Ancestor of a Binary Search Tree
+70.5%
+Med.
+
+236. Lowest Common Ancestor of a Binary Tree
+69.2%
+Med.
+
+250. Count Univalue Subtrees
+57.5%
+Med.
+
+257. Binary Tree Paths
+68.6%
+Easy
+
+261. Graph Valid Tree
+50.0%
+Med.
+
+269. Alien Dictionary
+37.2%
+Hard
+
+270. Closest Binary Search Tree Value
+49.2%
+Easy
+
+272. Closest Binary Search Tree Value II
+61.2%
+Hard
+
+285. Inorder Successor in BST
+51.2%
+Med.
+
+297. Serialize and Deserialize Binary Tree
+60.7%
+Hard
+
+298. Binary Tree Longest Consecutive Sequence
+54.8%
+Med.
+
+302. Smallest Rectangle Enclosing Black Pixels
+60.9%
+Hard
+
+310. Minimum Height Trees
+42.5%
+Med.
+
+314. Binary Tree Vertical Order Traversal
+57.8%
+Med.
+
+323. Number of Connected Components in an Undirected Graph
+64.9%
+Med.
+
+329. Longest Increasing Path in a Matrix
+56.6%
+Hard
+
+332. Reconstruct Itinerary
+44.5%
+Hard
+
+333. Largest BST Subtree
+45.9%
+Med.
+
+337. House Robber III
+55.9%
+Med.
+
+339. Nested List Weight Sum
+86.0%
+Med.
+
+341. Flatten Nested List Iterator
+65.7%
+Med.
+
+364. Nested List Weight Sum II
+67.0%
+Med.
+
+365. Water and Jug Problem
+45.6%
+Med.
+
+366. Find Leaves of Binary Tree
+81.3%
+Med.
+
+385. Mini Parser
+42.5%
+Med.
+
+386. Lexicographical Numbers
+76.2%
+Med.
+
+388. Longest Absolute File Path
+49.4%
+Med.
+
+399. Evaluate Division
+64.2%
+Med.
+
+404. Sum of Left Leaves
+62.7%
+Easy
+
+417. Pacific Atlantic Water Flow
+60.9%
+Med.
+
+419. Battleships in a Board
+77.5%
+Med.
+
+426. Convert Binary Search Tree to Sorted Doubly Linked List
+65.6%
+Med.
+
+428. Serialize and Deserialize N-ary Tree
+68.8%
+Hard
+
+430. Flatten a Multilevel Doubly Linked List
+62.8%
+Med.
+
+431. Encode N-ary Tree to Binary Tree
+80.6%
+Hard
+
+437. Path Sum III
+46.4%
+Med.
+
+449. Serialize and Deserialize BST
+59.6%
+Med.
+
+463. Island Perimeter
+74.4%
+Easy
+
+472. Concatenated Words
+49.8%
+Hard
+
+490. The Maze
+60.4%
+Med.
+
+499. The Maze III
+52.3%
+Hard
+
+501. Find Mode in Binary Search Tree
+58.9%
+Easy
+
+505. The Maze II
+55.1%
+Med.
+
+508. Most Frequent Subtree Sum
+69.2%
+Med.
+
+513. Find Bottom Left Tree Value
+72.3%
+Med.
+
+514. Freedom Trail
+59.3%
+Hard
+
+515. Find Largest Value in Each Tree Row
+66.3%
+Med.
+
+529. Minesweeper
+68.7%
+Med.
+
+530. Minimum Absolute Difference in BST
+59.4%
+Easy
+
+536. Construct Binary Tree from String
+58.7%
+Med.
+
+538. Convert BST to Greater Tree
+71.6%
+Med.
+
+543. Diameter of Binary Tree
+65.5%
+Easy
+
+545. Boundary of Binary Tree
+48.1%
+Med.
+
+547. Number of Provinces
+70.3%
+Med.
+
+549. Binary Tree Longest Consecutive Sequence II
+50.1%
+Med.
+
+559. Maximum Depth of N-ary Tree
+73.6%
+Easy
+
+563. Binary Tree Tilt
+65.8%
+Easy
+
+565. Array Nesting
+56.6%
+Med.
+
+572. Subtree of Another Tree
+51.6%
+Easy
+
+582. Kill Process
+70.7%
+Med.
+
+589. N-ary Tree Preorder Traversal
+76.8%
+Easy
+
+590. N-ary Tree Postorder Traversal
+81.1%
+Easy
+
+606. Construct String from Binary Tree
+70.7%
+Med.
+
+617. Merge Two Binary Trees
+79.1%
+Easy
+
+623. Add One Row to Tree
+64.1%
+Med.
+
+637. Average of Levels in Binary Tree
+74.9%
+Easy
+
+642. Design Search Autocomplete System
+49.9%
+Hard
+
+652. Find Duplicate Subtrees
+60.7%
+Med.
+
+653. Two Sum IV - Input is a BST
+63.3%
+Easy
+
+655. Print Binary Tree
+66.6%
+Med.
+
+662. Maximum Width of Binary Tree
+45.6%
+Med.
+
+663. Equal Tree Partition
+42.3%
+Med.
+
+666. Path Sum IV
+62.9%
+Med.
+
+669. Trim a Binary Search Tree
+66.7%
+Med.
+
+671. Second Minimum Node In a Binary Tree
+46.1%
+Easy
+
+672. Bulb Switcher II
+50.1%
+Med.
+
+676. Implement Magic Dictionary
+57.8%
+Med.
+
+684. Redundant Connection
+67.6%
+Med.
+
+685. Redundant Connection II
+36.2%
+Hard
+
+687. Longest Univalue Path
+43.9%
+Med.
+
+690. Employee Importance
+69.4%
+Med.
+
+694. Number of Distinct Islands
+62.8%
+Med.
+
+695. Max Area of Island
+74.0%
+Med.
+
+711. Number of Distinct Islands II
+55.4%
+Hard
+
+721. Accounts Merge
+61.3%
+Med.
+
+733. Flood Fill
+68.2%
+Easy
+
+737. Sentence Similarity II
+51.3%
+Med.
+
+742. Closest Leaf in a Binary Tree
+47.4%
+Med.
+
+743. Network Delay Time
+60.3%
+Med.
+
+749. Contain Virus
+54.8%
+Hard
+
+753. Cracking the Safe
+58.4%
+Hard
+
+765. Couples Holding Hands
+59.4%
+Hard
+
+778. Swim in Rising Water
+67.8%
+Hard
+
+783. Minimum Distance Between BST Nodes
+61.3%
+Easy
+
+785. Is Graph Bipartite?
+59.2%
+Med.
+
+787. Cheapest Flights Within K Stops
+41.7%
+Med.
+
+797. All Paths From Source to Target
+83.6%
+Med.
+
+802. Find Eventual Safe States
+70.7%
+Med.
+
+814. Binary Tree Pruning
+72.5%
+Med.
+
+827. Making A Large Island
+56.6%
+Hard
+
+834. Sum of Distances in Tree
+65.6%
+Hard
+
+839. Similar String Groups
+56.3%
+Hard
+
+841. Keys and Rooms
+75.7%
+Med.
+
+851. Loud and Rich
+63.5%
+Med.
+
+863. All Nodes Distance K in Binary Tree
+67.6%
+Med.
+
+865. Smallest Subtree with all the Deepest Nodes
+77.6%
+Med.
+
+872. Leaf-Similar Trees
+70.2%
+Easy
+
+886. Possible Bipartition
+52.6%
+Med.
+
+897. Increasing Order Search Tree
+79.0%
+Easy
+
+924. Minimize Malware Spread
+43.2%
+Hard
+
+928. Minimize Malware Spread II
+45.6%
+Hard
+
+934. Shortest Bridge
+59.4%
+Med.
+
+938. Range Sum of BST
+87.6%
+Easy
+
+947. Most Stones Removed with Same Row or Column
+62.9%
+Med.
+
+951. Flip Equivalent Binary Trees
+69.5%
+Med.
+
+959. Regions Cut By Slashes
+77.5%
+Med.
+
+965. Univalued Binary Tree
+73.0%
+Easy
+
+968. Binary Tree Cameras
+47.9%
+Hard
+
+971. Flip Binary Tree To Match Preorder Traversal
+51.9%
+Med.
+
+979. Distribute Coins in Binary Tree
+77.3%
+Med.
+
+987. Vertical Order Traversal of a Binary Tree
+53.7%
+Hard
+
+988. Smallest String Starting From Leaf
+61.2%
+Med.
+
+993. Cousins in Binary Tree
+59.3%
+Easy
+
+1020. Number of Enclaves
+71.7%
+Med.
+
+1022. Sum of Root To Leaf Binary Numbers
+76.6%
+Easy
+
+1026. Maximum Difference Between Node and Ancestor
+78.2%
+Med.
+
+1028. Recover a Tree From Preorder Traversal
+83.2%
+Hard
+
+1034. Coloring A Border
+51.3%
+Med.
+
+1036. Escape a Large Maze
+36.6%
+Hard
+
+1038. Binary Search Tree to Greater Sum Tree
+88.4%
+Med.
+
+1042. Flower Planting With No Adjacent
+53.6%
+Med.
+
+1080. Insufficient Nodes in Root to Leaf Paths
+55.1%
+Med.
+
+1102. Path With Maximum Minimum Value
+54.7%
+Med.
+
+1110. Delete Nodes And Return Forest
+72.5%
+Med.
+
+1120. Maximum Average Subtree
+66.9%
+Med.
+
+1123. Lowest Common Ancestor of Deepest Leaves
+79.5%
+Med.
+
+1145. Binary Tree Coloring Game
+52.9%
+Med.
+
+1161. Maximum Level Sum of a Binary Tree
+70.0%
+Med.
+
+1192. Critical Connections in a Network
+59.6%
+Hard
+
+1202. Smallest String With Swaps
+60.6%
+Med.
+
+1203. Sort Items by Groups Respecting Dependencies
+65.9%
+Hard
+
+1214. Two Sum BSTs
+68.2%
+Med.
+
+1233. Remove Sub-Folders from the Filesystem
+78.6%
+Med.
+
+1236. Web Crawler
+68.8%
+Med.
+
+1242. Web Crawler Multithreaded
+51.2%
+Med.
+
+1245. Tree Diameter
+61.3%
+Med.
+
+1254. Number of Closed Islands
+67.1%
+Med.
+
+1257. Smallest Common Region
+68.3%
+Med.
+
+1261. Find Elements in a Contaminated Binary Tree
+84.1%
+Med.
+
+1267. Count Servers that Communicate
+73.5%
+Med.
+
+1273. Delete Tree Nodes
+61.7%
+Med.
+
+1302. Deepest Leaves Sum
+86.5%
+Med.
+
+1305. All Elements in Two Binary Search Trees
+80.3%
+Med.
+
+1306. Jump Game III
+66.9%
+Med.
+
+1315. Sum of Nodes with Even-Valued Grandparent
+85.9%
+Med.
+
+1319. Number of Operations to Make Network Connected
+66.5%
+Med.
+
+1325. Delete Leaves With a Given Value
+77.2%
+Med.
+
+1339. Maximum Product of Splitted Binary Tree
+55.7%
+Med.
+
+1361. Validate Binary Tree Nodes
+44.1%
+Med.
+
+1367. Linked List in Binary Tree
+52.0%
+Med.
+
+1372. Longest ZigZag Path in a Binary Tree
+67.1%
+Med.
+
+1373. Maximum Sum BST in Binary Tree
+47.2%
+Hard
+
+1376. Time Needed to Inform All Employees
+60.5%
+Med.
+
+1377. Frog Position After T Seconds
+38.5%
+Hard
+
+1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+85.8%
+Easy
+
+1382. Balance a Binary Search Tree
+86.3%
+Med.
+
+1391. Check if There is a Valid Path in a Grid
+64.5%
+Med.
+
+1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
+47.5%
+Med.
+
+1443. Minimum Time to Collect All Apples in a Tree
+63.6%
+Med.
+
+1448. Count Good Nodes in Binary Tree
+73.8%
+Med.
+
+1457. Pseudo-Palindromic Paths in a Binary Tree
+68.4%
+Med.
+
+1462. Course Schedule IV
+59.9%
+Med.
+
+1466. Reorder Routes to Make All Paths Lead to the City Zero
+65.8%
+Med.
+
+1469. Find All The Lonely Nodes
+84.1%
+Easy
+
+1483. Kth Ancestor of a Tree Node
+37.5%
+Hard
+
+1485. Clone Binary Tree With Random Pointer
+80.9%
+Med.
+
+1490. Clone N-ary Tree
+83.0%
+Med.
+
+1506. Find Root of N-Ary Tree
+78.6%
+Med.
+
+1516. Move Sub-Tree of N-Ary Tree
+59.8%
+Hard
+
+1519. Number of Nodes in the Sub-Tree With the Same Label
+55.4%
+Med.
+
+1522. Diameter of N-Ary Tree
+75.5%
+Med.
+
+1530. Number of Good Leaf Nodes Pairs
+71.8%
+Med.
+
+1559. Detect Cycles in 2D Grid
+63.3%
+Med.
+
+1568. Minimum Number of Days to Disconnect Island
+58.7%
+Hard
+
+1600. Throne Inheritance
+67.2%
+Med.
+
+1612. Check If Two Expression Trees are Equivalent
+71.7%
+Med.
+
+1625. Lexicographically Smallest String After Applying Operations
+79.3%
+Med.
+
+1631. Path With Minimum Effort
+63.2%
+Med.
+
+1644. Lowest Common Ancestor of a Binary Tree II
+69.6%
+Med.
+
+1660. Correct a Binary Tree
+74.3%
+Med.
+
+1666. Change the Root of a Binary Tree
+75.2%
+Med.
+
+1676. Lowest Common Ancestor of a Binary Tree IV
+79.6%
+Med.
+
+1722. Minimize Hamming Distance After Swap Operations
+69.6%
+Med.
+
+1724. Checking Existence of Edge Length Limited Paths II
+51.4%
+Hard
+
+1740. Find Distance in a Binary Tree
+74.3%
+Med.
+
+1743. Restore the Array From Adjacent Pairs
+75.0%
+Med.
+
+1766. Tree of Coprimes
+44.0%
+Hard
+
+1778. Shortest Path in a Hidden Grid
+44.6%
+Med.
+
+1810. Minimum Path Cost in a Hidden Grid
+58.8%
+Med.
+
+1820. Maximum Number of Accepted Invitations
+52.6%
+Med.
+
+1858. Longest Word With All Prefixes
+72.1%
+Med.
+
+1905. Count Sub Islands
+73.0%
+Med.
+
+1916. Count Ways to Build Rooms in an Ant Colony
+51.4%
+Hard
+
+1932. Merge BSTs to Create Single BST
+38.7%
+Hard
+
+1938. Maximum Genetic Difference Query
+46.9%
+Hard
+
+1970. Last Day Where You Can Still Cross
+68.7%
+Hard
+
+1971. Find if Path Exists in Graph
+55.1%
+Easy
+
+1973. Count Nodes Equal to Sum of Descendants
+77.4%
+Med.
+
+1992. Find All Groups of Farmland
+75.5%
+Med.
+
+1993. Operations on Tree
+45.3%
+Med.
+
+2003. Smallest Missing Genetic Value in Each Subtree
+47.8%
+Hard
+
+2049. Count Nodes With the Highest Score
+52.7%
+Med.
+
+2092. Find All People With Secret
+48.4%
+Hard
+
+2096. Step-By-Step Directions From a Binary Tree Node to Another
+56.4%
+Med.
+
+2097. Valid Arrangement of Pairs
+66.6%
+Hard
+
+2101. Detonate the Maximum Bombs
+50.1%
+Med.
+
+2127. Maximum Employees to Be Invited to a Meeting
+61.8%
+Hard
+
+2192. All Ancestors of a Node in a Directed Acyclic Graph
+62.1%
+Med.
+
+2204. Distance to a Cycle in Undirected Graph
+73.8%
+Hard
+
+2246. Longest Path With Different Adjacent Characters
+54.0%
+Hard
+
+2265. Count Nodes Equal to Average of Subtree
+86.8%
+Med.
+
+2277. Closest Node to Path in Tree
+62.3%
+Hard
+
+2307. Check for Contradictions in Equations
+43.9%
+Hard
+
+2313. Minimum Flips in Binary Tree to Get Result
+56.8%
+Hard
+
+2316. Count Unreachable Pairs of Nodes in an Undirected Graph
+49.9%
+Med.
+
+2322. Minimum Score After Removals on a Tree
+76.1%
+Hard
+
+2328. Number of Increasing Paths in a Grid
+57.4%
+Hard
+
+2331. Evaluate Boolean Binary Tree
+82.4%
+Easy
+
+2359. Find Closest Node to Given Two Nodes
+53.0%
+Med.
+
+2360. Longest Cycle in a Graph
+50.6%
+Hard
+
+2368. Reachable Nodes With Restrictions
+60.4%
+Med.
+
+2378. Choose Edges to Maximize Score in a Tree
+56.7%
+Med.
+
+2385. Amount of Time for Binary Tree to Be Infected
+65.3%
+Med.
+
+2415. Reverse Odd Levels of Binary Tree
+86.7%
+Med.
+
+2440. Create Components With Same Value
+53.7%
+Hard
+
+2445. Number of Nodes With Value One
+66.0%
+Med.
+
+2458. Height of Binary Tree After Subtree Removal Queries
+54.9%
+Hard
+
+2467. Most Profitable Path in a Tree
+67.3%
+Med.
+
+2476. Closest Nodes Queries in a Binary Search Tree
+44.4%
+Med.
+
+2477. Minimum Fuel Cost to Report to the Capital
+65.4%
+Med.
+
+2479. Maximum XOR of Two Non-Overlapping Subtrees
+52.1%
+Hard
+
+2492. Minimum Score of a Path Between Two Cities
+58.8%
+Med.
+
+2493. Divide Nodes Into the Maximum Number of Groups
+66.9%
+Hard
+
+2538. Difference Between Maximum and Minimum Price Sum
+33.5%
+Hard
+
+2556. Disconnect Path in a Binary Matrix by at Most One Flip
+27.9%
+Med.
+
+2581. Count Number of Possible Root Nodes
+48.2%
+Hard
+
+2596. Check Knight Tour Configuration
+61.1%
+Med.
+
+2641. Cousins in Binary Tree II
+75.9%
+Med.
+
+2646. Minimize the Total Price of the Trips
+48.2%
+Hard
+
+2658. Maximum Number of Fish in a Grid
+70.6%
+Med.
+
+2685. Count the Number of Complete Components
+77.8%
+Med.
+
+2689. Extract Kth Character From The Rope Tree
+73.4%
+Easy
+
+2764. Is Array a Preorder of Some ‌Binary Tree
+67.9%
+Med.
+
+2773. Height of Special Binary Tree
+74.5%
+Med.
+
+2791. Count Paths That Can Form a Palindrome in a Tree
+52.0%
+Hard
+
+2792. Count Nodes That Are Great Enough
+56.6%
+Hard
+
+2846. Minimum Edge Weight Equilibrium Queries in a Tree
+45.8%
+Hard
+
+2852. Sum of Remoteness of All Cells
+70.7%
+Med.
+
+2858. Minimum Edge Reversals So Every Node Is Reachable
+59.4%
+Hard
+
+2867. Count Valid Paths in a Tree
+36.2%
+Hard
+
+2872. Maximum Number of K-Divisible Components
+74.0%
+Hard
+
+2876. Count Visited Nodes in a Directed Graph
+30.8%
+Hard
+
+2920. Maximum Points After Collecting Coins From All Nodes
+36.5%
+Hard
+
+2925. Maximum Score After Applying Operations on a Tree
+47.2%
+Med.
+
+2973. Find Number of Coins to Place in Tree Nodes
+37.5%
+Hard
+
+3004. Maximum Subtree of the Same Color
+58.7%
+Med.
+
+3067. Count Pairs of Connectable Servers in a Weighted Tree Network
+55.9%
+Med.
+
+3123. Find Edges in Shortest Paths
+46.6%
+Hard
+
+3157. Find the Level of Tree with Minimum Sum
+69.4%
+Med.
+
+3203. Find Minimum Diameter After Merging Two Trees
+57.1%
+Hard
+
+3235. Check if the Rectangle Corner Is Reachable
+25.2%
+Hard
+
+3241. Time Taken to Mark All Nodes
+28.0%
+Hard
+
+3249. Count the Number of Good Nodes
+55.4%
+Med.
+
+3310. Remove Methods From Project
+50.6%
+Med.
+
+3313. Find the Last Marked Nodes in Tree
+56.4%
+Hard
+
+3319. K-th Largest Perfect Subtree Size in Binary Tree
+62.2%
+Med.
+
+3327. Check if DFS Strings Are Palindromes
+20.5%
+Hard
+
+3331. Find Subtree Sizes After Changes
+53.8%
+Med.
+
+3367. Maximize Sum of Weights after Edge Removals
+30.9%
+Hard
+
+3372. Maximize the Number of Target Nodes After Connecting Trees I
+69.4%
+Med.
+
+3373. Maximize the Number of Target Nodes After Connecting Trees II
+73.1%
+Hard
+
+3383. Minimum Runes to Add to Cast Spell
+44.8%
+Hard
+
+3387. Maximize Amount After Two Days of Conversions
+61.4%
+Med.
+
+3419. Minimize the Maximum Edge Weight of Graph
+44.5%
+Med.
+
+3425. Longest Special Path
+22.7%
+Hard
+
+3481. Apply Substitutions
+77.4%
+Med.
+
+3486. Longest Special Path II
+19.2%
+Hard
+
+3493. Properties Graph
+48.8%
+Med.
+
+3515. Shortest Path in a Weighted Tree
+42.3%
+Hard
+
+3528. Unit Conversion I
+54.1%
+Med.
+
+3535. Unit Conversion II
+66.5%
+Med.
+
+3544. Subtree Inversion Sum
+44.1%
+Hard
+
+3553. Minimum Weighted Subgraph With the Required Paths II
+50.0%
+Hard
+
+3558. Number of Ways to Assign Edge Weights I
+53.3%
+Med.
+
+3559. Number of Ways to Assign Edge Weights II
+59.5%
+Hard
+
+3562. Maximum Profit from Trading Stocks with Discounts
+56.6%
+Hard
+
+3575. Maximum Good Subtree Score
+45.4%
+Hard
+
+3585. Find Weighted Median Node in Tree
+26.6%
+Hard
+
+3590. Kth Smallest Path XOR Sum
+29.7%
+Hard
+
+3593. Minimum Increments to Equalize Leaf Paths
+41.3%
+Med.
+
+3607. Power Grid Maintenance
+56.2%
+Med.
+
+3619. Count Islands With Total Value Divisible by K
+56.3%
+Med.
+
+3710. Maximum Partition Factor
+31.7%
+Hard
+
+3715. Sum of Perfect Square Ancestors
+42.6%
+Hard
+
+3772. Maximum Subgraph Score in a Tree
+70.6%
+Hard
+
+3786. Total Sum of Interaction Cost in Tree Groups
+54.1%
+Hard
+
+3812. Minimum Edge Toggles on a Tree
+68.8%
+Hard
+
+3831. Median of a Binary Search Tree Level
+88.0%
+Med.
+
+3879. Maximum Distinct Path Sum in a Binary Tree
+56.5%
+Med.
+
+Copyright © 2026 LeetCode
+Download App
+Help Center
+Bug Bounty
+Assessment
+Terms
+Privacy Policy
+United States
+United States
+
+
+
+
+Problems
+Contest
+Discuss
+Interview
+Store
+
+
+0
+0Streaks
+Now or Never!
+DCC Badge
+
+avatar
+Avatar
+Krishnaswami Rajendren
+Premium
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+
+
+Breadth-First Search
+LeetCode
+·
+257 questions
+·
+3228 Saved
+
+Practice
+
+
+
+Updated: 19 days ago
+Progress
+
+62/257
+Solved
+79.05%
+Acceptance
+Beats
+63.21%
+Beats
+52.91%
+Beats
+13.14%
+4 Attempting797 submission0 Attempting3 Attempting1 Attempting
+Easy
+8/20
+Med.
+50/166
+Hard
+4/71
+Discuss
+Search questions
+
+
+
+100. Same Tree
+67.1%
+Easy
+
+101. Symmetric Tree
+61.2%
+Easy
+
+102. Binary Tree Level Order Traversal
+72.6%
+Med.
+
+103. Binary Tree Zigzag Level Order Traversal
+63.6%
+Med.
+
+104. Maximum Depth of Binary Tree
+78.2%
+Easy
+
+107. Binary Tree Level Order Traversal II
+68.2%
+Med.
+
+111. Minimum Depth of Binary Tree
+52.9%
+Easy
+
+112. Path Sum
+54.9%
+Easy
+
+116. Populating Next Right Pointers in Each Node
+67.2%
+Med.
+
+117. Populating Next Right Pointers in Each Node II
+57.5%
+Med.
+
+126. Word Ladder II
+27.7%
+Hard
+
+127. Word Ladder
+45.5%
+Hard
+
+130. Surrounded Regions
+45.2%
+Med.
+
+133. Clone Graph
+65.2%
+Med.
+
+199. Binary Tree Right Side View
+70.1%
+Med.
+
+200. Number of Islands
+64.3%
+Med.
+
+207. Course Schedule
+51.4%
+Med.
+
+210. Course Schedule II
+55.5%
+Med.
+
+226. Invert Binary Tree
+80.0%
+Easy
+
+261. Graph Valid Tree
+50.0%
+Med.
+
+269. Alien Dictionary
+37.2%
+Hard
+
+279. Perfect Squares
+56.5%
+Med.
+
+286. Walls and Gates
+64.0%
+Med.
+
+297. Serialize and Deserialize Binary Tree
+60.7%
+Hard
+
+301. Remove Invalid Parentheses
+49.9%
+Hard
+
+302. Smallest Rectangle Enclosing Black Pixels
+60.9%
+Hard
+
+310. Minimum Height Trees
+42.5%
+Med.
+
+314. Binary Tree Vertical Order Traversal
+57.8%
+Med.
+
+317. Shortest Distance from All Buildings
+44.9%
+Hard
+
+322. Coin Change
+48.4%
+Med.
+
+323. Number of Connected Components in an Undirected Graph
+64.9%
+Med.
+
+329. Longest Increasing Path in a Matrix
+56.6%
+Hard
+
+339. Nested List Weight Sum
+86.0%
+Med.
+
+364. Nested List Weight Sum II
+67.0%
+Med.
+
+365. Water and Jug Problem
+45.6%
+Med.
+
+399. Evaluate Division
+64.2%
+Med.
+
+404. Sum of Left Leaves
+62.7%
+Easy
+
+407. Trapping Rain Water II
+64.1%
+Hard
+
+417. Pacific Atlantic Water Flow
+60.9%
+Med.
+
+428. Serialize and Deserialize N-ary Tree
+68.8%
+Hard
+
+429. N-ary Tree Level Order Traversal
+71.5%
+Med.
+
+431. Encode N-ary Tree to Binary Tree
+80.6%
+Hard
+
+433. Minimum Genetic Mutation
+56.6%
+Med.
+
+449. Serialize and Deserialize BST
+59.6%
+Med.
+
+463. Island Perimeter
+74.4%
+Easy
+
+488. Zuma Game
+29.8%
+Hard
+
+490. The Maze
+60.4%
+Med.
+
+499. The Maze III
+52.3%
+Hard
+
+505. The Maze II
+55.1%
+Med.
+
+513. Find Bottom Left Tree Value
+72.3%
+Med.
+
+514. Freedom Trail
+59.3%
+Hard
+
+515. Find Largest Value in Each Tree Row
+66.3%
+Med.
+
+529. Minesweeper
+68.7%
+Med.
+
+530. Minimum Absolute Difference in BST
+59.4%
+Easy
+
+542. 01 Matrix
+53.8%
+Med.
+
+547. Number of Provinces
+70.3%
+Med.
+
+559. Maximum Depth of N-ary Tree
+73.6%
+Easy
+
+582. Kill Process
+70.7%
+Med.
+
+617. Merge Two Binary Trees
+79.1%
+Easy
+
+623. Add One Row to Tree
+64.1%
+Med.
+
+637. Average of Levels in Binary Tree
+74.9%
+Easy
+
+653. Two Sum IV - Input is a BST
+63.3%
+Easy
+
+655. Print Binary Tree
+66.6%
+Med.
+
+662. Maximum Width of Binary Tree
+45.6%
+Med.
+
+672. Bulb Switcher II
+50.1%
+Med.
+
+675. Cut Off Trees for Golf Event
+36.4%
+Hard
+
+684. Redundant Connection
+67.6%
+Med.
+
+685. Redundant Connection II
+36.2%
+Hard
+
+690. Employee Importance
+69.4%
+Med.
+
+694. Number of Distinct Islands
+62.8%
+Med.
+
+695. Max Area of Island
+74.0%
+Med.
+
+711. Number of Distinct Islands II
+55.4%
+Hard
+
+721. Accounts Merge
+61.3%
+Med.
+
+733. Flood Fill
+68.2%
+Easy
+
+737. Sentence Similarity II
+51.3%
+Med.
+
+742. Closest Leaf in a Binary Tree
+47.4%
+Med.
+
+743. Network Delay Time
+60.3%
+Med.
+
+749. Contain Virus
+54.8%
+Hard
+
+752. Open the Lock
+61.3%
+Med.
+
+765. Couples Holding Hands
+59.4%
+Hard
+
+773. Sliding Puzzle
+74.4%
+Hard
+
+778. Swim in Rising Water
+67.8%
+Hard
+
+783. Minimum Distance Between BST Nodes
+61.3%
+Easy
+
+785. Is Graph Bipartite?
+59.2%
+Med.
+
+787. Cheapest Flights Within K Stops
+41.7%
+Med.
+
+797. All Paths From Source to Target
+83.6%
+Med.
+
+802. Find Eventual Safe States
+70.7%
+Med.
+
+815. Bus Routes
+47.3%
+Hard
+
+827. Making A Large Island
+56.6%
+Hard
+
+839. Similar String Groups
+56.3%
+Hard
+
+841. Keys and Rooms
+75.7%
+Med.
+
+847. Shortest Path Visiting All Nodes
+66.0%
+Hard
+
+854. K-Similar Strings
+40.9%
+Hard
+
+863. All Nodes Distance K in Binary Tree
+67.6%
+Med.
+
+864. Shortest Path to Get All Keys
+54.6%
+Hard
+
+865. Smallest Subtree with all the Deepest Nodes
+77.6%
+Med.
+
+886. Possible Bipartition
+52.6%
+Med.
+
+909. Snakes and Ladders
+48.1%
+Med.
+
+919. Complete Binary Tree Inserter
+65.1%
+Med.
+
+924. Minimize Malware Spread
+43.2%
+Hard
+
+928. Minimize Malware Spread II
+45.6%
+Hard
+
+934. Shortest Bridge
+59.4%
+Med.
+
+958. Check Completeness of a Binary Tree
+59.2%
+Med.
+
+959. Regions Cut By Slashes
+77.5%
+Med.
+
+965. Univalued Binary Tree
+73.0%
+Easy
+
+967. Numbers With Same Consecutive Differences
+59.2%
+Med.
+
+987. Vertical Order Traversal of a Binary Tree
+53.7%
+Hard
+
+993. Cousins in Binary Tree
+59.3%
+Easy
+
+994. Rotting Oranges
+58.6%
+Med.
+
+1020. Number of Enclaves
+71.7%
+Med.
+
+1034. Coloring A Border
+51.3%
+Med.
+
+1036. Escape a Large Maze
+36.6%
+Hard
+
+1042. Flower Planting With No Adjacent
+53.6%
+Med.
+
+1087. Brace Expansion
+66.9%
+Med.
+
+1091. Shortest Path in Binary Matrix
+51.5%
+Med.
+
+1096. Brace Expansion II
+63.8%
+Hard
+
+1102. Path With Maximum Minimum Value
+54.7%
+Med.
+
+1123. Lowest Common Ancestor of Deepest Leaves
+79.5%
+Med.
+
+1129. Shortest Path with Alternating Colors
+48.0%
+Med.
+
+1161. Maximum Level Sum of a Binary Tree
+70.0%
+Med.
+
+1162. As Far from Land as Possible
+52.3%
+Med.
+
+1197. Minimum Knight Moves
+41.9%
+Med.
+
+1202. Smallest String With Swaps
+60.6%
+Med.
+
+1203. Sort Items by Groups Respecting Dependencies
+65.9%
+Hard
+
+1210. Minimum Moves to Reach Target with Rotations
+52.1%
+Hard
+
+1215. Stepping Numbers
+48.4%
+Med.
+
+1236. Web Crawler
+68.8%
+Med.
+
+1242. Web Crawler Multithreaded
+51.2%
+Med.
+
+1245. Tree Diameter
+61.3%
+Med.
+
+1254. Number of Closed Islands
+67.1%
+Med.
+
+1257. Smallest Common Region
+68.3%
+Med.
+
+1261. Find Elements in a Contaminated Binary Tree
+84.1%
+Med.
+
+1263. Minimum Moves to Move a Box to Their Target Location
+49.7%
+Hard
+
+1267. Count Servers that Communicate
+73.5%
+Med.
+
+1273. Delete Tree Nodes
+61.7%
+Med.
+
+1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
+72.5%
+Hard
+
+1293. Shortest Path in a Grid with Obstacles Elimination
+46.3%
+Hard
+
+1298. Maximum Candies You Can Get from Boxes
+67.5%
+Hard
+
+1302. Deepest Leaves Sum
+86.5%
+Med.
+
+1306. Jump Game III
+66.9%
+Med.
+
+1311. Get Watched Videos by Your Friends
+52.9%
+Med.
+
+1315. Sum of Nodes with Even-Valued Grandparent
+85.9%
+Med.
+
+1319. Number of Operations to Make Network Connected
+66.5%
+Med.
+
+1345. Jump Game IV
+46.3%
+Hard
+
+1361. Validate Binary Tree Nodes
+44.1%
+Med.
+
+1368. Minimum Cost to Make at Least One Valid Path in a Grid
+71.0%
+Hard
+
+1376. Time Needed to Inform All Employees
+60.5%
+Med.
+
+1377. Frog Position After T Seconds
+38.5%
+Hard
+
+1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+85.8%
+Easy
+
+1391. Check if There is a Valid Path in a Grid
+64.5%
+Med.
+
+1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
+47.5%
+Med.
+
+1443. Minimum Time to Collect All Apples in a Tree
+63.6%
+Med.
+
+1448. Count Good Nodes in Binary Tree
+73.8%
+Med.
+
+1457. Pseudo-Palindromic Paths in a Binary Tree
+68.4%
+Med.
+
+1462. Course Schedule IV
+59.9%
+Med.
+
+1466. Reorder Routes to Make All Paths Lead to the City Zero
+65.8%
+Med.
+
+1469. Find All The Lonely Nodes
+84.1%
+Easy
+
+1483. Kth Ancestor of a Tree Node
+37.5%
+Hard
+
+1485. Clone Binary Tree With Random Pointer
+80.9%
+Med.
+
+1490. Clone N-ary Tree
+83.0%
+Med.
+
+1519. Number of Nodes in the Sub-Tree With the Same Label
+55.4%
+Med.
+
+1559. Detect Cycles in 2D Grid
+63.3%
+Med.
+
+1568. Minimum Number of Days to Disconnect Island
+58.7%
+Hard
+
+1602. Find Nearest Right Node in Binary Tree
+75.1%
+Med.
+
+1609. Even Odd Tree
+67.1%
+Med.
+
+1625. Lexicographically Smallest String After Applying Operations
+79.3%
+Med.
+
+1631. Path With Minimum Effort
+63.2%
+Med.
+
+1654. Minimum Jumps to Reach Home
+30.8%
+Med.
+
+1660. Correct a Binary Tree
+74.3%
+Med.
+
+1730. Shortest Path to Get Food
+57.2%
+Med.
+
+1740. Find Distance in a Binary Tree
+74.3%
+Med.
+
+1765. Map of Highest Peak
+75.8%
+Med.
+
+1778. Shortest Path in a Hidden Grid
+44.6%
+Med.
+
+1810. Minimum Path Cost in a Hidden Grid
+58.8%
+Med.
+
+1905. Count Sub Islands
+73.0%
+Med.
+
+1926. Nearest Exit from Entrance in Maze
+48.5%
+Med.
+
+1970. Last Day Where You Can Still Cross
+68.7%
+Hard
+
+1971. Find if Path Exists in Graph
+55.1%
+Easy
+
+1992. Find All Groups of Farmland
+75.5%
+Med.
+
+1993. Operations on Tree
+45.3%
+Med.
+
+2039. The Time When the Network Becomes Idle
+55.6%
+Med.
+
+2045. Second Minimum Time to Reach Destination
+62.3%
+Hard
+
+2059. Minimum Operations to Convert Number
+51.8%
+Med.
+
+2092. Find All People With Secret
+48.4%
+Hard
+
+2101. Detonate the Maximum Bombs
+50.1%
+Med.
+
+2146. K Highest Ranked Items Within a Price Range
+46.6%
+Med.
+
+2174. Remove All Ones With Row and Column Flips II
+67.4%
+Med.
+
+2192. All Ancestors of a Node in a Directed Acyclic Graph
+62.1%
+Med.
+
+2204. Distance to a Cycle in Undirected Graph
+73.8%
+Hard
+
+2258. Escape the Spreading Fire
+38.2%
+Hard
+
+2277. Closest Node to Path in Tree
+62.3%
+Hard
+
+2290. Minimum Obstacle Removal to Reach Corner
+70.6%
+Hard
+
+2316. Count Unreachable Pairs of Nodes in an Undirected Graph
+49.9%
+Med.
+
+2328. Number of Increasing Paths in a Grid
+57.4%
+Hard
+
+2360. Longest Cycle in a Graph
+50.6%
+Hard
+
+2368. Reachable Nodes With Restrictions
+60.4%
+Med.
+
+2385. Amount of Time for Binary Tree to Be Infected
+65.3%
+Med.
+
+2415. Reverse Odd Levels of Binary Tree
+86.7%
+Med.
+
+2445. Number of Nodes With Value One
+66.0%
+Med.
+
+2458. Height of Binary Tree After Subtree Removal Queries
+54.9%
+Hard
+
+2467. Most Profitable Path in a Tree
+67.3%
+Med.
+
+2471. Minimum Number of Operations to Sort a Binary Tree by Level
+74.2%
+Med.
+
+2477. Minimum Fuel Cost to Report to the Capital
+65.4%
+Med.
+
+2492. Minimum Score of a Path Between Two Cities
+58.8%
+Med.
+
+2493. Divide Nodes Into the Maximum Number of Groups
+66.9%
+Hard
+
+2503. Maximum Number of Points From Grid Queries
+59.3%
+Hard
+
+2556. Disconnect Path in a Binary Matrix by at Most One Flip
+27.9%
+Med.
+
+2577. Minimum Time to Visit a Cell In a Grid
+56.3%
+Hard
+
+2583. Kth Largest Sum in a Binary Tree
+59.0%
+Med.
+
+2596. Check Knight Tour Configuration
+61.1%
+Med.
+
+2608. Shortest Cycle in a Graph
+39.6%
+Hard
+
+2612. Minimum Reverse Operations
+17.0%
+Hard
+
+2617. Minimum Number of Visited Cells in a Grid
+23.9%
+Hard
+
+2641. Cousins in Binary Tree II
+75.9%
+Med.
+
+2658. Maximum Number of Fish in a Grid
+70.6%
+Med.
+
+2685. Count the Number of Complete Components
+77.8%
+Med.
+
+2773. Height of Special Binary Tree
+74.5%
+Med.
+
+2812. Find the Safest Path in a Grid
+48.7%
+Med.
+
+2814. Minimum Time Takes to Reach Destination Without Drowning
+54.6%
+Hard
+
+2852. Sum of Remoteness of All Cells
+70.7%
+Med.
+
+2858. Minimum Edge Reversals So Every Node Is Reachable
+59.4%
+Hard
+
+2998. Minimum Number of Operations to Make X and Y Equal
+48.7%
+Med.
+
+3015. Count the Number of Houses at a Certain Distance I
+57.6%
+Med.
+
+3123. Find Edges in Shortest Paths
+46.6%
+Hard
+
+3141. Maximum Hamming Distances
+49.4%
+Hard
+
+3157. Find the Level of Tree with Minimum Sum
+69.4%
+Med.
+
+3203. Find Minimum Diameter After Merging Two Trees
+57.1%
+Hard
+
+3235. Check if the Rectangle Corner Is Reachable
+25.2%
+Hard
+
+3243. Shortest Distance After Road Addition Queries I
+61.9%
+Med.
+
+3283. Maximum Number of Moves to Kill All Pawns
+33.9%
+Hard
+
+3286. Find a Safe Walk Through a Grid
+33.2%
+Med.
+
+3310. Remove Methods From Project
+50.6%
+Med.
+
+3372. Maximize the Number of Target Nodes After Connecting Trees I
+69.4%
+Med.
+
+3373. Maximize the Number of Target Nodes After Connecting Trees II
+73.1%
+Hard
+
+3376. Minimum Time to Break Locks I
+32.5%
+Med.
+
+3383. Minimum Runes to Add to Cast Spell
+44.8%
+Hard
+
+3385. Minimum Time to Break Locks II
+45.1%
+Hard
+
+3387. Maximize Amount After Two Days of Conversions
+61.4%
+Med.
+
+3419. Minimize the Maximum Edge Weight of Graph
+44.5%
+Med.
+
+3481. Apply Substitutions
+77.4%
+Med.
+
+3493. Properties Graph
+48.8%
+Med.
+
+3528. Unit Conversion I
+54.1%
+Med.
+
+3535. Unit Conversion II
+66.5%
+Med.
+
+3552. Grid Teleportation Traversal
+23.6%
+Med.
+
+3568. Minimum Moves to Clean the Classroom
+26.7%
+Med.
+
+3607. Power Grid Maintenance
+56.2%
+Med.
+
+3619. Count Islands With Total Value Divisible by K
+56.3%
+Med.
+
+3629. Minimum Jumps to Reach End via Prime Teleportation
+45.2%
+Med.
+
+3666. Minimum Operations to Equalize Binary String
+45.1%
+Hard
+
+3690. Split and Merge Array Transformation
+58.7%
+Med.
+
+3710. Maximum Partition Factor
+31.7%
+Hard
+
+3787. Find Diameter Endpoints of a Tree
+68.2%
+Med.
+
+3807. Minimum Cost to Repair Edges to Traverse a Graph
+55.7%
+Med.
+
+3820. Pythagorean Distance Nodes in a Tree
+57.9%
+Med.
+
+3831. Median of a Binary Search Tree Level
+88.0%
+Med.
+
+3902. Zigzag Level Sum of Binary Tree
+72.5%
+Med.
+
+3905. Multi Source Flood Fill
+55.9%
+Med.
+
+Copyright © 2026 LeetCode
+Download App
+Help Center
+Bug Bounty
+Assessment
+Terms
+Privacy Policy
+United States
+United States

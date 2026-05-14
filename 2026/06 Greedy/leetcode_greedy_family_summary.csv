@@ -1,0 +1,64 @@
+primary_family,count,example_problems,approach_kinds,series_or_ladders
+Sorting / choice greedy,101,280. Wiggle Sort; 324. Wiggle Sort II; 397. Integer Replacement; 517. Super Washing Machines; 605. Can Place Flowers; 625. Minimum Factorization; 649. Dota2 Senate; 768. Max Chunks To Make Sorted II,pure greedy or sorting greedy; pure greedy or sorting greedy / DP-boundary,Greedy-DP boundary
+Array transformation / partition greedy,52,334. Increasing Triplet Subsequence; 376. Wiggle Subsequence; 581. Shortest Unsorted Continuous Subarray; 624. Maximum Distance in Arrays; 945. Minimum Increment to Make Array Unique; 1144. Decrease Elements To Make Array Zigzag; 1330. Reverse Subarray To Maximize Array Value; 1338. Reduce Array Size to The Half,greedy or greedy-DP boundary; greedy or greedy-DP boundary / DP-boundary,Array partition/transformation
+Numeric / bitwise greedy,50,1005. Maximize Sum Of Array After K Negations; 1013. Partition Array Into Three Parts With Equal Sum; 1262. Greatest Sum Divisible by Three; 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K; 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts; 1509. Minimum Difference Between Largest and Smallest Value in Three Moves; 1567. Maximum Length of Subarray With Positive Product; 1589. Maximum Sum Obtained of Any Permutation,numeric greedy / bit greedy / hybrid; numeric greedy / bit greedy / hybrid / DP-boundary,Numeric / bitwise
+Lexicographic / monotonic construction,38,484. Find Permutation; 555. Split Concatenated Strings; 670. Maximum Swap; 738. Monotone Increasing Digits; 942. DI String Match; 1053. Previous Permutation With One Swap; 1328. Break a Palindrome; 1363. Largest Multiple of Three,greedy + monotonic stack / sorting,Lexicographic Greedy
+Frequency / counting / string construction,33,420. Strong Password Checker; 527. Word Abbreviation; 984. String Without AAA or BBB; 1055. Shortest Way to Form String; 1221. Split a String in Balanced Strings; 1405. Longest Happy String; 1433. Check If a String Can Break Another String; 1585. Check If String Is Transformable With Substring Sort Operations,greedy + counting/heap; greedy + counting/heap / DP-boundary,Frequency/String
+Pairing / matching / delta sorting,30,561. Array Partition; 611. Valid Triangle Number; 765. Couples Holding Hands; 954. Array of Doubled Pairs; 976. Largest Perimeter Triangle; 1007. Minimum Domino Rotations For Equal Row; 1247. Minimum Swaps to Make Strings Equal; 1296. Divide Array in Sets of K Consecutive Numbers,pure greedy + sorting/two pointers,Pairing / matching
+Interval / coverage / scheduling,19,621. Task Scheduler; 1520. Maximum Number of Non-Overlapping Substrings; 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target; 1665. Minimum Initial Energy to Finish Tasks; 1717. Maximum Score From Removing Substrings; 1794. Count Pairs of Equal Substrings With Minimum Difference; 2244. Minimum Rounds to Complete All Tasks; 2271. Maximum White Tiles Covered by a Carpet,"greedy, greedy + heap, or binary search + greedy; greedy, greedy + heap, or binary search + greedy / DP-boundary",Interval / scheduling / coverage
+Binary search + greedy feasibility,18,410. Split Array Largest Sum; 1802. Maximum Value at a Given Index in a Bounded Array; 2064. Minimized Maximum of Products Distributed to Any Store; 2141. Maximum Running Time of N Computers; 2234. Maximum Total Beauty of the Gardens; 2439. Minimize Maximum of Array; 2517. Maximum Tastiness of Candy Basket; 2560. House Robber IV,binary search + greedy; binary search + greedy / DP-boundary,Binary search on answer; Partition / binary search
+Constructive matrix/tree/graph greedy,17,861. Score After Flipping Matrix; 955. Delete Columns to Make Sorted II; 1253. Reconstruct a 2-Row Binary Matrix; 1536. Minimum Swaps to Arrange a Binary Grid; 1605. Find Valid Matrix Given Row and Column Sums; 1727. Largest Submatrix With Rearrangements; 1975. Maximum Matrix Sum; 2087. Minimum Cost Homecoming of a Robot in a Grid,constructive greedy / hybrid; constructive greedy / hybrid / DP-boundary,Constructive structures
+Heap greedy / deferred choice,10,826. Most Profit Assigning Work; 1054. Distant Barcodes; 1199. Minimum Time to Build Blocks; 1648. Sell Diminishing-Valued Colored Balls; 2530. Maximal Score After Applying K Operations; 2895. Minimum Processing Time; 2931. Maximum Spending After Buying Items; 3296. Minimum Number of Seconds to Make Mountain Height Zero,greedy + heap,Heap-greedy
+Jump / reachability frontier,9,45. Jump Game II; 55. Jump Game; 1824. Minimum Sideway Jumps; 1936. Add Minimum Number of Rungs; 2498. Frog Jump II; 3205. Maximum Array Hopping Score I; 3221. Maximum Array Hopping Score II; 3282. Reach End of Array With Max Score,greedy frontier or hybrid; greedy frontier or hybrid / DP-boundary; pure greedy,Jump Game
+Palindrome construction / counting,9,409. Longest Palindrome; 680. Valid Palindrome II; 1147. Longest Chunked Palindrome Decomposition; 1400. Construct K Palindrome Strings; 2131. Longest Palindrome by Concatenating Two Letter Words; 2193. Minimum Number of Moves to Make Palindrome; 3035. Maximum Palindromes After Operations; 3088. Make String Anti-palindrome,counting greedy or two-pointer greedy; counting greedy or two-pointer greedy / DP-boundary,Palindrome
+Parentheses / balance greedy,6,921. Minimum Add to Make Parentheses Valid; 1541. Minimum Insertions to Balance a Parentheses String; 2116. Check if a Parentheses String Can Be Valid; 2645. Minimum Additions to Make Valid String; 3291. Minimum Number of Valid Strings to Form Target I; 3292. Minimum Number of Valid Strings to Form Target II,pure greedy; pure greedy / DP-boundary,Parentheses
+Lexicographic monotonic stack,5,316. Remove Duplicate Letters; 321. Create Maximum Number; 402. Remove K Digits; 1081. Smallest Subsequence of Distinct Characters; 1673. Find the Most Competitive Subsequence,greedy + enumeration; greedy + monotonic stack,Lexicographic deletion
+Pairing / matching,4,455. Assign Cookies; 870. Advantage Shuffle; 881. Boats to Save People; 2410. Maximum Matching of Players With Trainers,greedy + two pointers/multiset; pure greedy; pure greedy + two pointers,Pairing / matching
+Coverage / patching,3,330. Patching Array; 1798. Maximum Number of Consecutive Values You Can Make; 2952. Minimum Number of Coins to be Added,pure greedy,Coverage / patching
+Coverage expansion,2,1024. Video Stitching; 1326. Minimum Number of Taps to Open to Water a Garden,pure greedy,Coverage / interval
+Cutting cost greedy,2,3218. Minimum Cost for Cutting Cake I; 3219. Minimum Cost for Cutting Cake II,pure greedy,Ordering / cuts
+Deadline scheduling,2,1353. Maximum Number of Events That Can Be Attended; 1705. Maximum Number of Eaten Apples,greedy + heap,Scheduling; Scheduling / perishables
+Delta sorting,2,1029. Two City Scheduling; 2611. Mice and Cheese,pure greedy,Delta sorting
+Game theory / resource removal,2,1753. Maximum Score From Removing Stones; 1962. Remove Stones to Minimize the Total,game theory or heap greedy,Stone Game / stones
+Interval heap / active set,2,253. Meeting Rooms II; 2406. Divide Intervals Into Minimum Number of Groups,greedy + heap,Interval
+Interval scheduling,2,435. Non-overlapping Intervals; 646. Maximum Length of Pair Chain,pure greedy,Interval
+Ratio/score heap selection,2,1383. Maximum Performance of a Team; 2542. Maximum Subsequence Score,greedy + heap,Heap-greedy / selection
+Stock / transaction greedy-DP boundary,2,122. Best Time to Buy and Sell Stock II; 714. Best Time to Buy and Sell Stock with Transaction Fee,greedy-DP hybrid; pure greedy,Stock
+Binary search + coverage difference,1,2528. Maximize the Minimum Powered City,binary search + greedy,Coverage / binary search
+Binary search + greedy matching,1,2071. Maximum Number of Tasks You Can Assign,binary search + greedy,Matching / binary search
+Binary search + greedy pairing,1,2616. Minimize the Maximum Difference of Pairs,binary search + greedy,Pairing / binary search
+Comparator sorting greedy,1,179. Largest Number,sorting greedy,Lexicographic / ordering
+Consecutive group construction,1,846. Hand of Straights,greedy + ordered map,Frequency / construction
+Consecutive subsequence construction,1,659. Split Array into Consecutive Subsequences,greedy + hash maps,Frequency / construction
+DP boundary / wildcard matching,1,44. Wildcard Matching,greedy + backtracking or DP,Wildcard/string matching
+Deadline ordering,1,1921. Eliminate Maximum Number of Monsters,pure greedy,Scheduling
+Frequency scheduling / cooldown,1,358. Rearrange String k Distance Apart,greedy + heap,Task scheduling / cooldown
+Frequency scheduling / no adjacent equal,1,767. Reorganize String,greedy + heap,Task scheduling / cooldown
+Future deadline scheduling,1,1488. Avoid Flood in The City,greedy + ordered set,Scheduling / resource
+Game scoring greedy,1,1686. Stone Game VI,game-theoretic greedy,Stone Game
+Game theory / residue counts,1,2029. Stone Game IX,game theory + greedy counts,Stone Game
+Heap greedy / capital unlocking,1,502. IPO,greedy + heap,Heap-greedy
+Heap greedy / refueling,1,871. Minimum Number of Refueling Stops,greedy + heap,Heap-greedy / coverage
+Heap greedy / resource allocation,1,1642. Furthest Building You Can Reach,greedy + heap,Heap-greedy
+Huffman merge greedy,1,1167. Minimum Cost to Connect Sticks,greedy + heap,Huffman / merge cost
+Interval heap / coverage demand,1,3362. Zero Array Transformation III,greedy + heap,Coverage / intervals
+Interval scheduling with required time points,1,2589. Minimum Time to Complete All Tasks,greedy + interval marking,Scheduling / interval
+Interval stabbing,1,452. Minimum Number of Arrows to Burst Balloons,pure greedy,Interval
+Interval stabbing with multiplicity,1,757. Set Intersection Size At Least Two,pure greedy,Interval
+K-way merge / heap window,1,632. Smallest Range Covering Elements from K Lists,heap + greedy,Heap/window
+Marginal gain heap,1,1792. Maximum Average Pass Ratio,greedy + heap,Heap-greedy / marginal
+Marginal reduction heap,1,2208. Minimum Operations to Halve Array Sum,greedy + heap,Heap-greedy / marginal
+Median/ones movement,1,3086. Minimum Moves to Pick K Ones,greedy + prefix sums,Adjacent swaps / median
+Ordering by marginal contribution,1,1402. Reducing Dishes,sorting greedy / DP boundary,Ordering / marginal
+Ordering by tail time,1,2136. Earliest Possible Day of Full Bloom,pure greedy,Scheduling
+Parentheses range feasibility,1,678. Valid Parenthesis String,pure greedy,Parentheses
+Partition by last occurrence,1,763. Partition Labels,pure greedy,Coverage / partition
+Prefix surplus repair,1,2599. Make the Prefix Sum Non-negative,greedy + heap,Prefix repair
+Ratio sorting + heap,1,857. Minimum Cost to Hire K Workers,greedy + heap,Knapsack-like selection
+Replacement heap scheduling,1,630. Course Schedule III,greedy + replacement heap,Scheduling
+Resource surplus / circular feasibility,1,134. Gas Station,pure greedy,Gas station / circular surplus
+Reverse greedy partitioning,1,2366. Minimum Replacements to Sort the Array,pure greedy,Array transformation
+Top-k with replacement,1,2813. Maximum Elegance of a K-Length Subsequence,greedy + replacement heap,Heap-greedy / selection
+Two-pass local constraint repair,1,135. Candy,greedy + two passes,Candy / local constraints
+Two-pointer geometry greedy,1,11. Container With Most Water,pure greedy + two pointers,Container / two-pointer area
+Water-filling heap greedy,1,2233. Maximum Product After K Increments,greedy + heap,Heap-greedy / equalization

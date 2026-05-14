@@ -1,0 +1,1136 @@
+Problems
+Contest
+Discuss
+Interview
+Store
+
+
+0
+0Streaks
+Practice Time!
+DCC Badge
+
+avatar
+Avatar
+Krishnaswami Rajendren
+Premium
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+
+
+Shortest Path
+LeetCode
+·
+38 questions
+·
+1054 Saved
+
+Practice
+
+
+
+Updated: 7 months ago
+Progress
+
+7/38
+Solved
+84.68%
+Acceptance
+Beats
+0%
+Beats
+47.91%
+Beats
+15.35%
+1 Attempting111 submission0 Attempting1 Attempting0 Attempting
+Easy
+0
+Med.
+6/23
+Hard
+1/15
+Discuss
+Search questions
+
+
+
+399. Evaluate Division
+64.2%
+Med.
+
+499. The Maze III
+52.3%
+Hard
+
+505. The Maze II
+55.1%
+Med.
+
+743. Network Delay Time
+60.3%
+Med.
+
+787. Cheapest Flights Within K Stops
+41.7%
+Med.
+
+882. Reachable Nodes In Subdivided Graph
+52.1%
+Hard
+
+1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+72.7%
+Med.
+
+1368. Minimum Cost to Make at Least One Valid Path in a Grid
+71.0%
+Hard
+
+1514. Path with Maximum Probability
+65.5%
+Med.
+
+1786. Number of Restricted Paths From First to Last Node
+41.1%
+Med.
+
+1810. Minimum Path Cost in a Hidden Grid
+58.8%
+Med.
+
+1976. Number of Ways to Arrive at Destination
+37.5%
+Med.
+
+2045. Second Minimum Time to Reach Destination
+62.3%
+Hard
+
+2093. Minimum Cost to Reach City With Discounts
+60.9%
+Med.
+
+2203. Minimum Weighted Subgraph With the Required Paths
+42.0%
+Hard
+
+2290. Minimum Obstacle Removal to Reach Corner
+70.6%
+Hard
+
+2297. Jump Game VIII
+45.7%
+Med.
+
+2473. Minimum Cost to Buy Apples
+67.2%
+Med.
+
+2577. Minimum Time to Visit a Cell In a Grid
+56.3%
+Hard
+
+2642. Design Graph With Shortest Path Calculator
+65.1%
+Hard
+
+2662. Minimum Cost of a Path With Special Roads
+43.1%
+Med.
+
+2699. Modify Graph Edge Weights
+55.6%
+Hard
+
+2714. Find Shortest Path with K Hops
+68.7%
+Hard
+
+2737. Find the Closest Marked Node
+65.4%
+Med.
+
+2959. Number of Possible Sets of Closing Branches
+50.9%
+Hard
+
+2976. Minimum Cost to Convert String I
+63.2%
+Med.
+
+2977. Minimum Cost to Convert String II
+59.6%
+Hard
+
+3112. Minimum Time to Visit Disappearing Nodes
+37.8%
+Med.
+
+3123. Find Edges in Shortest Paths
+46.6%
+Hard
+
+3286. Find a Safe Walk Through a Grid
+33.2%
+Med.
+
+3341. Find Minimum Time to Reach Last Room I
+55.4%
+Med.
+
+3342. Find Minimum Time to Reach Last Room II
+67.6%
+Med.
+
+3377. Digit Operations to Make Two Integers Equal
+30.4%
+Med.
+
+3419. Minimize the Maximum Edge Weight of Graph
+44.5%
+Med.
+
+3594. Minimum Time to Transport All Individuals
+28.4%
+Hard
+
+3604. Minimum Time to Reach Destination in Directed Graph
+45.7%
+Med.
+
+3620. Network Recovery Pathways
+29.9%
+Hard
+
+3650. Minimum Cost Path with Edge Reversals
+61.8%
+Med.
+
+Copyright © 2026 LeetCode
+Download App
+Help Center
+Bug Bounty
+Assessment
+Terms
+Privacy Policy
+United States
+United States
+
+
+
+
+Problems
+Contest
+Discuss
+Interview
+Store
+
+
+0
+0Streaks
+Get Started Early!
+DCC Badge
+
+avatar
+Avatar
+Krishnaswami Rajendren
+Premium
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+
+
+Minimum Spanning Tree
+LeetCode
+·
+6 questions
+·
+603 Saved
+
+Practice
+
+
+
+Updated: 10 months ago
+Progress
+
+3/6
+Solved
+85.71%
+Acceptance
+Beats
+0%
+Beats
+99.9%
+Beats
+46.47%
+0 Attempting14 submission0 Attempting0 Attempting0 Attempting
+Easy
+0
+Med.
+2/2
+Hard
+1/4
+Discuss
+Search questions
+
+
+
+1135. Connecting Cities With Minimum Cost
+63.5%
+Med.
+
+1168. Optimize Water Distribution in a Village
+65.6%
+Hard
+
+1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+66.5%
+Hard
+
+1584. Min Cost to Connect All Points
+70.9%
+Med.
+
+1724. Checking Existence of Edge Length Limited Paths II
+51.4%
+Hard
+
+3600. Maximize Spanning Tree Stability with Upgrades
+66.3%
+Hard
+
+Copyright © 2026 LeetCode
+Download App
+Help Center
+Bug Bounty
+Assessment
+Terms
+Privacy Policy
+United States
+United States
+
+
+
+
+Problems
+Contest
+Discuss
+Interview
+Store
+
+
+0
+0Streaks
+Get Started Early!
+DCC Badge
+
+avatar
+Avatar
+Krishnaswami Rajendren
+Premium
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+
+
+Topological Sort
+LeetCode
+·
+40 questions
+·
+1776 Saved
+
+Practice
+
+
+
+Updated: 2 months ago
+Progress
+
+7/40
+Solved
+79.21%
+Acceptance
+Beats
+0%
+Beats
+63.21%
+Beats
+9.52%
+1 Attempting101 submission0 Attempting1 Attempting0 Attempting
+Easy
+0
+Med.
+6/15
+Hard
+1/25
+Discuss
+Search questions
+
+
+
+207. Course Schedule
+51.4%
+Med.
+
+210. Course Schedule II
+55.5%
+Med.
+
+269. Alien Dictionary
+37.2%
+Hard
+
+310. Minimum Height Trees
+42.5%
+Med.
+
+329. Longest Increasing Path in a Matrix
+56.6%
+Hard
+
+444. Sequence Reconstruction
+30.8%
+Med.
+
+631. Design Excel Sum Formula
+39.8%
+Hard
+
+802. Find Eventual Safe States
+70.7%
+Med.
+
+851. Loud and Rich
+63.5%
+Med.
+
+913. Cat and Mouse
+35.3%
+Hard
+
+1059. All Paths from Source Lead to Destination
+37.3%
+Med.
+
+1136. Parallel Courses
+62.2%
+Med.
+
+1203. Sort Items by Groups Respecting Dependencies
+65.9%
+Hard
+
+1245. Tree Diameter
+61.3%
+Med.
+
+1462. Course Schedule IV
+59.9%
+Med.
+
+1591. Strange Printer II
+60.8%
+Hard
+
+1632. Rank Transform of a Matrix
+42.2%
+Hard
+
+1728. Cat and Mouse II
+40.3%
+Hard
+
+1786. Number of Restricted Paths From First to Last Node
+41.1%
+Med.
+
+1857. Largest Color Value in a Directed Graph
+57.3%
+Hard
+
+1916. Count Ways to Build Rooms in an Ant Colony
+51.4%
+Hard
+
+1976. Number of Ways to Arrive at Destination
+37.5%
+Med.
+
+2050. Parallel Courses III
+66.8%
+Hard
+
+2115. Find All Possible Recipes from Given Supplies
+56.9%
+Med.
+
+2127. Maximum Employees to Be Invited to a Meeting
+61.8%
+Hard
+
+2192. All Ancestors of a Node in a Directed Acyclic Graph
+62.1%
+Med.
+
+2204. Distance to a Cycle in Undirected Graph
+73.8%
+Hard
+
+2246. Longest Path With Different Adjacent Characters
+54.0%
+Hard
+
+2328. Number of Increasing Paths in a Grid
+57.4%
+Hard
+
+2360. Longest Cycle in a Graph
+50.6%
+Hard
+
+2371. Minimize Maximum Value in a Grid
+70.1%
+Hard
+
+2392. Build a Matrix With Conditions
+79.3%
+Hard
+
+2603. Collect Coins in a Tree
+40.1%
+Hard
+
+2876. Count Visited Nodes in a Directed Graph
+30.8%
+Hard
+
+3383. Minimum Runes to Add to Cast Spell
+44.8%
+Hard
+
+3435. Frequencies of Shortest Supersequences
+22.3%
+Hard
+
+3481. Apply Substitutions
+77.4%
+Med.
+
+3530. Maximum Profit from Valid Topological Order in DAG
+30.2%
+Hard
+
+3620. Network Recovery Pathways
+29.9%
+Hard
+
+3812. Minimum Edge Toggles on a Tree
+68.8%
+Hard
+
+Copyright © 2026 LeetCode
+Download App
+Help Center
+Bug Bounty
+Assessment
+Terms
+Privacy Policy
+United States
+United States
+
+
+
+
+Problems
+Contest
+Discuss
+Interview
+Store
+
+
+0
+0Streaks
+Practice Time!
+DCC Badge
+
+avatar
+Avatar
+Krishnaswami Rajendren
+Premium
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+
+
+Strongly Connected Component
+LeetCode
+·
+2 questions
+·
+324 Saved
+
+Practice
+
+
+
+Updated: 2 months ago
+Progress
+
+0/2
+Solved
+0%
+Acceptance
+Beats
+0%
+Beats
+0%
+Beats
+0%
+0 Attempting0 submission0 Attempting0 Attempting0 Attempting
+Easy
+0
+Med.
+0
+Hard
+0/2
+Discuss
+Search questions
+
+
+
+1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+66.5%
+Hard
+
+1568. Minimum Number of Days to Disconnect Island
+58.7%
+Hard
+
+
+
+
+Problems
+Contest
+Discuss
+Interview
+Store
+
+
+0
+0Streaks
+Extend Your Streak!
+DCC Badge
+
+avatar
+Avatar
+Krishnaswami Rajendren
+Premium
+myLists
+My Lists
+notebook
+Notebook
+progress
+Progress
+points
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+
+
+Union-Find
+LeetCode
+·
+98 questions
+·
+1738 Saved
+
+Practice
+
+
+
+Updated: a month ago
+Progress
+
+20/98
+Solved
+81.69%
+Acceptance
+Beats
+0%
+Beats
+59.34%
+Beats
+10.09%
+2 Attempting284 submission0 Attempting1 Attempting1 Attempting
+Easy
+0/1
+Med.
+18/50
+Hard
+2/47
+Discuss
+Search questions
+
+
+
+128. Longest Consecutive Sequence
+47.1%
+Med.
+
+130. Surrounded Regions
+45.2%
+Med.
+
+200. Number of Islands
+64.3%
+Med.
+
+261. Graph Valid Tree
+50.0%
+Med.
+
+305. Number of Islands II
+40.6%
+Hard
+
+323. Number of Connected Components in an Undirected Graph
+64.9%
+Med.
+
+352. Data Stream as Disjoint Intervals
+60.1%
+Hard
+
+399. Evaluate Division
+64.2%
+Med.
+
+547. Number of Provinces
+70.3%
+Med.
+
+684. Redundant Connection
+67.6%
+Med.
+
+685. Redundant Connection II
+36.2%
+Hard
+
+694. Number of Distinct Islands
+62.8%
+Med.
+
+695. Max Area of Island
+74.0%
+Med.
+
+711. Number of Distinct Islands II
+55.4%
+Hard
+
+721. Accounts Merge
+61.3%
+Med.
+
+737. Sentence Similarity II
+51.3%
+Med.
+
+765. Couples Holding Hands
+59.4%
+Hard
+
+778. Swim in Rising Water
+67.8%
+Hard
+
+785. Is Graph Bipartite?
+59.2%
+Med.
+
+803. Bricks Falling When Hit
+37.2%
+Hard
+
+827. Making A Large Island
+56.6%
+Hard
+
+839. Similar String Groups
+56.3%
+Hard
+
+886. Possible Bipartition
+52.6%
+Med.
+
+924. Minimize Malware Spread
+43.2%
+Hard
+
+928. Minimize Malware Spread II
+45.6%
+Hard
+
+947. Most Stones Removed with Same Row or Column
+62.9%
+Med.
+
+952. Largest Component Size by Common Factor
+43.0%
+Hard
+
+959. Regions Cut By Slashes
+77.5%
+Med.
+
+990. Satisfiability of Equality Equations
+51.8%
+Med.
+
+1020. Number of Enclaves
+71.7%
+Med.
+
+1061. Lexicographically Smallest Equivalent String
+81.2%
+Med.
+
+1101. The Earliest Moment When Everyone Become Friends
+66.0%
+Med.
+
+1102. Path With Maximum Minimum Value
+54.7%
+Med.
+
+1135. Connecting Cities With Minimum Cost
+63.5%
+Med.
+
+1168. Optimize Water Distribution in a Village
+65.6%
+Hard
+
+1202. Smallest String With Swaps
+60.6%
+Med.
+
+1254. Number of Closed Islands
+67.1%
+Med.
+
+1258. Synonymous Sentences
+57.3%
+Med.
+
+1267. Count Servers that Communicate
+73.5%
+Med.
+
+1319. Number of Operations to Make Network Connected
+66.5%
+Med.
+
+1361. Validate Binary Tree Nodes
+44.1%
+Med.
+
+1391. Check if There is a Valid Path in a Grid
+64.5%
+Med.
+
+1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+66.5%
+Hard
+
+1559. Detect Cycles in 2D Grid
+63.3%
+Med.
+
+1569. Number of Ways to Reorder Array to Get Same BST
+54.1%
+Hard
+
+1579. Remove Max Number of Edges to Keep Graph Fully Traversable
+70.2%
+Hard
+
+1584. Min Cost to Connect All Points
+70.9%
+Med.
+
+1627. Graph Connectivity With Threshold
+49.4%
+Hard
+
+1631. Path With Minimum Effort
+63.2%
+Med.
+
+1632. Rank Transform of a Matrix
+42.2%
+Hard
+
+1697. Checking Existence of Edge Length Limited Paths
+63.3%
+Hard
+
+1722. Minimize Hamming Distance After Swap Operations
+69.6%
+Med.
+
+1724. Checking Existence of Edge Length Limited Paths II
+51.4%
+Hard
+
+1905. Count Sub Islands
+73.0%
+Med.
+
+1970. Last Day Where You Can Still Cross
+68.7%
+Hard
+
+1971. Find if Path Exists in Graph
+55.1%
+Easy
+
+1998. GCD Sort of an Array
+49.9%
+Hard
+
+2003. Smallest Missing Genetic Value in Each Subtree
+47.8%
+Hard
+
+2076. Process Restricted Friend Requests
+60.3%
+Hard
+
+2092. Find All People With Secret
+48.4%
+Hard
+
+2157. Groups of Strings
+27.7%
+Hard
+
+2307. Check for Contradictions in Equations
+43.9%
+Hard
+
+2316. Count Unreachable Pairs of Nodes in an Undirected Graph
+49.9%
+Med.
+
+2334. Subarray With Elements Greater Than Varying Threshold
+45.5%
+Hard
+
+2368. Reachable Nodes With Restrictions
+60.4%
+Med.
+
+2371. Minimize Maximum Value in a Grid
+70.1%
+Hard
+
+2382. Maximum Segment Sum After Removals
+49.6%
+Hard
+
+2421. Number of Good Paths
+56.3%
+Hard
+
+2424. Longest Uploaded Prefix
+55.0%
+Med.
+
+2492. Minimum Score of a Path Between Two Cities
+58.8%
+Med.
+
+2493. Divide Nodes Into the Maximum Number of Groups
+66.9%
+Hard
+
+2503. Maximum Number of Points From Grid Queries
+59.3%
+Hard
+
+2573. Find the String with LCP
+63.2%
+Hard
+
+2612. Minimum Reverse Operations
+17.0%
+Hard
+
+2617. Minimum Number of Visited Cells in a Grid
+23.9%
+Hard
+
+2658. Maximum Number of Fish in a Grid
+70.6%
+Med.
+
+2685. Count the Number of Complete Components
+77.8%
+Med.
+
+2709. Greatest Common Divisor Traversal
+41.8%
+Hard
+
+2782. Number of Unique Categories
+83.7%
+Med.
+
+2812. Find the Safest Path in a Grid
+48.7%
+Med.
+
+2852. Sum of Remoteness of All Cells
+70.7%
+Med.
+
+2948. Make Lexicographically Smallest Array by Swapping Elements
+60.3%
+Med.
+
+3108. Minimum Cost Walk in Weighted Graph
+68.2%
+Hard
+
+3235. Check if the Rectangle Corner Is Reachable
+25.2%
+Hard
+
+3378. Count Connected Components in LCM Graph
+31.1%
+Hard
+
+3383. Minimum Runes to Add to Cast Spell
+44.8%
+Hard
+
+3493. Properties Graph
+48.8%
+Med.
+
+3532. Path Existence Queries in a Graph I
+55.4%
+Med.
+
+3600. Maximize Spanning Tree Stability with Upgrades
+66.3%
+Hard
+
+3607. Power Grid Maintenance
+56.2%
+Med.
+
+3608. Minimum Time for K Connected Components
+45.4%
+Med.
+
+3613. Minimize Maximum Component Cost
+43.5%
+Med.
+
+3619. Count Islands With Total Value Divisible by K
+56.3%
+Med.
+
+3666. Minimum Operations to Equalize Binary String
+45.1%
+Hard
+
+3695. Maximize Alternating Sum Using Swaps
+64.6%
+Hard
+
+3710. Maximum Partition Factor
+31.7%
+Hard
+
+3873. Maximum Points Activated with One Addition
+43.8%
+Hard
+
+3887. Incremental Even-Weighted Cycle Queries
+51.5%
+Hard
+
+Copyright © 2026 LeetCode
+Download App
+Help Center
+Bug Bounty
+Assessment
+Terms
+Privacy Policy
+United States
+United States
+
+
+
+
+
+
+
+
+
