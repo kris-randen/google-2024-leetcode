@@ -1,0 +1,35 @@
+Problems
+
+455. Assign Cookies
+881. Boats to Save People
+1877. Minimize Maximum Pair Sum in Array
+2410. Maximum Matching of Players With Trainers
+870. Advantage Shuffle
+
+
+630. Course Schedule III
+857. Minimum Cost to Hire K Workers
+1383. Maximum Performance of a Team
+2542. Maximum Subsequence Score
+
+
+8. Monotonic lexicographic deletion
+   402, 316, 1081, 1673
+
+9. Frequency heap / cooldown construction
+   621, 767, 358
+
+10. Running surplus / reset
+   134
+
+11. Prefix-suffix local repair
+   135, 2366
+
+12. Binary search + greedy feasibility
+   410, 2064, 2616, 2528
+
+13. Marginal gain heap
+   1792, 2208, 2233
+
+14. Residue / parity / game-count greedy
+   1686, 2029

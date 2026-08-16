@@ -1,0 +1,17 @@
+
+
+Primitive 7 — Pair Extremes / Smallest Sufficient Resource
+Core idea:
+Sort first.
+Then use two pointers to pair weakest/strongest, lightest/heaviest, smallest/largest.
+This covers:
+455. Assign Cookies
+881. Boats to Save People
+1877. Minimize Maximum Pair Sum in Array
+2410. Maximum Matching of Players With Trainers
+870. Advantage Shuffle
+The main mental model:
+When pairing under a constraint, one extreme usually forces the decision.
+Start with:
+455. Assign Cookies
+Pr
